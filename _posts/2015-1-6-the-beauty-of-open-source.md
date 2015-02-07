@@ -17,7 +17,7 @@ Honestly, I kind of expected the response that you see from time to time - "than
 
 To me this demonstrates two really great things about Open Source software
 
-#### Quick resolution times
+#### Quick Responses
 
 While the fix was reasonably simple, reproducing the bug and identifying the root cause was pretty involved.  
 
