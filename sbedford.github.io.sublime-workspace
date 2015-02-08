@@ -19,11 +19,26 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 1576,
+				"buffer_size": 2065,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv='X-UA-Compatible' content='IE=edge'>\n    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>\n\n    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>\n\n    <meta name=\"author\" content=\"{{ site.name }}\" />\n    <meta name=\"description\" content=\"{{ site.description }}\">\n\n    <!--[if lt IE 9]>\n      <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n    <![endif]-->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ site.baseurl }}/style.css\" />\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"{{ site.name }} - {{ site.description }}\" href=\"{{ site.baseurl }}/feed.xml\" />\n  </head>\n\n  <body>\n    <div class=\"wrapper-masthead\">\n      <div class=\"container\">\n        <header class=\"masthead clearfix\">\n          <a href=\"{{ site.baseurl }}/\" class=\"site-avatar\"><img src=\"{{ site.avatar }}\" /></a>\n          \n          <div class=\"site-info\">\n            <h1 class=\"site-name\"><a href=\"{{ site.baseurl }}/\">{{ site.name }}</a></h1>\n            <p class=\"site-description\">{{ site.description }}</p>\n          </div>\n          \n          <nav>\n            <a href=\"{{ site.baseurl }}/\">Blog</a>\n            <a href=\"{{ site.baseurl }}/about\">About</a>\n          </nav>\n        </header>\n      </div>\n    </div>\n\n    <div id=\"main\" role=\"main\" class=\"container\">\n      {{ content }}\n    </div>\n\n    <div class=\"wrapper-footer\">\n      <div class=\"container\">\n        <footer class=\"footer\">\n          {% include svg-icons.html %}\n        </footer>\n      </div>\n    </div>\n\n    {% include analytics.html %}\n  </body>\n</html>\n",
+			"file": "_layouts/default.html",
+			"file_size": 1791,
+			"file_write_time": 130679288196013017,
+			"settings":
+			{
+				"buffer_size": 1731,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2015-01-08-git-jira-releasenotes.md",
+			"settings":
+			{
+				"buffer_size": 825,
 			"file": "_layouts/default.html",
 			"settings":
 			{
@@ -64,10 +79,9 @@
 	},
 	"file_history":
 	[
-		"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
+"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
 		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
 		"/C/development/git/sbedford.github.io/style.scss",
-		"/C/development/git/sbedford.github.io/about.md",
 		"/C/development/git/sbedford.github.io/_config.yml",
 		"/C/Users/Sean/Dropbox/Resume/Microsoft Business Solution Lead Key Points",
 		"/C/development/git/sbedford.github.io/images/step1.gif",
@@ -349,7 +363,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -357,15 +371,15 @@
 					"file": "_config.yml",
 					"settings":
 					{
-						"buffer_size": 1576,
+						"buffer_size": 2065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								343,
-								343
+								852,
+								852
 							]
 						],
 						"settings":
@@ -385,6 +399,54 @@
 					"file": "_layouts/default.html",
 					"settings":
 					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1712,
+								1684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2015-01-08-git-jira-releasenotes.md",
+					"settings":
+					{
+						"buffer_size": 825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 						"buffer_size": 1706,
 						"regions":
 						{

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Beauty of Open Source
+title: Open Source Done Right
 ---
 
 So I had a pretty neat experience over the last couple of days with the guys from [ScriptCS](https://github.com/scriptcs/scriptcs).
@@ -15,9 +15,7 @@ The response I received was nothing short of amazing.
 
 Honestly, I kind of expected the response that you see from time to time - "thanks we'll add that to the backlog and get back to you".  However, I received the opposite and it was as amazing as it was unexpected.
 
-To me this demonstrates two really great things about Open Source software
-
-#### Quick Responses
+#### Quick Response
 
 While the fix was reasonably simple, reproducing the bug and identifying the root cause was pretty involved.  
 
@@ -39,9 +37,8 @@ I'm very glad that I did.
 
 The washup? Inspiration.
 
-This blog for a start, I never felt like I had too much to say, but this has inspired me to talk about my experience with this great team of Open Source contributers.
+Inspired to create this blog for a start!
 
-Further, I'm going to contribute more to the Open Source frameworks I use (lots).  
-
+Further, I'm going to contribute more to the Open Source frameworks I use.
 
 So thank you [Glenn Block](www.twitter.com/gblock), [Adam Ralph](www.twitter.com/adamralph) and everyone associated with [ScriptCS](https://github.com/scriptcs/scriptcs).
