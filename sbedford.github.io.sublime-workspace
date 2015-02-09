@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"currentVersion",
+				"currentVersionTag"
+			],
+			[
+				"previous",
+				"previousVersionTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 2044,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/development/git/sbedford.github.io/style.scss",
+		"/C/development/git/sbedford.github.io/about.md",
+		"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
+		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
+		"/C/development/git/sbedford.github.io/_config.yml",
+		"/C/Users/Sean/Dropbox/Resume/Microsoft Business Solution Lead Key Points",
+		"/C/development/git/sbedford.github.io/images/step1.gif",
+		"/C/development/git/sbedford.github.io/_layouts/default.html",
+		"/C/development/git/sbedford.github.io/_scss/_highlights.scss",
+		"/C/development/git/sbedford.github.io/_site/style.css",
+		"/C/tools/rubydevkit/config.yml",
+		"/C/development/git/CommunityPortal/.gitignore",
+		"/C/Users/Sean/Desktop/foo.csx",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/Generate.csx",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/packages.config",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/foo.csx",
+		"/C/development/playpen/releaseNotes/releaseNotes/packages.config",
+		"/C/development/gist/libgittest/app.csx",
+		"/C/development/git/scriptcs/artifacts/Release/bin/LibGit2Sharp/app.csx",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages.config",
+		"/C/development/git/glennblock_scriptcs/src/ScriptCs/bin/Debug/packages.config",
+		"/C/development/playpen/LibGit2Sharp/app.csx",
+		"/C/development/playpen/LibGit2Sharp/packages.config",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/OracleDocumentationGenerator/GenerateDocumentation.csx",
+		"/C/development/git/CommunityPortal/genReleaseNotes.sh",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/build/net40/LibGit2Sharp.props",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/App_Readme/LibGit2Sharp.README.md",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/App_Readme/libgit2.license.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.5.1.1/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"/C/development/playpen/releaseNotes/packages/CommandLineParser.1.9.71/readme.txt",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/OracleDocumentationGenerator/packages.config",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/packages.json",
+		"/C/Users/Sean/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/development/git/CommunityPortal/commits.txt",
+		"/C/development/git/CommunityPortal/jiras.txt",
+		"/C/development/git/NorBE/genReleaseNotes.sh",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/MSICPhoto/MSICPhoto.csx",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ExportCompaniesWithInvalidCCDCID/packages.config",
+		"/C/Users/Sean/Desktop/HPA Employee Report 3rd Feb 2015.csv",
+		"/D/Labfiles/CRM 2013 Customization/BusinessUnits.csv",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/Phase 2 - Build/Delivery/2 Requirements/Appointment Cancellation.txt",
+		"//wsdom02/Group/Ajilon/Delivery/2 Requirements/From Business/nGen/Appointment/TruckAppointment v2.wsdl",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.Scheduler/1.5.0.4/20150128 - HPA.CommunityPortal.Quartz.Log.txt",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.Scheduler/bin/20150128 - HPA.CommunityPortal.Quartz.Log.txt",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.IntegrationEngine/bin/log4net.xml",
+		"/C/Users/Sean/Desktop/1.5.0.3/HPA.CommunityPortal.Scheduler.exe.config",
+		"/C/Users/Sean/Desktop/1.5.0.0/HPA.CommunityPortal.IntegrationEngine.exe.config",
+		"/C/Users/Sean/Desktop/1.5.0.0/20150128 - HPA.CommunityPortal.IntegrationEngine.Log.txt",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/DumpQueues/DumpQueues.csx",
+		"/C/TEMP/results.csv",
+		"/C/TEMP/hourly.csv",
+		"/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Log Parser 2.2/u_ex150119_TAP02.log",
+		"/C/Program Files (x86)/Log Parser 2.2/WSTAP02.log",
+		"/C/ProgramData/Microsoft/Windows/Start Menu/Programs/Log Parser 2.2/u_ex150119_TAP01.log",
+		"/C/development/git/CommunityPortal/Scripts/SQL/Documentation/Documentation.sql",
+		"//wstad02/c$/apache-activemq-5.10.0/conf/jetty-realm.properties",
+		"//wstad02/c$/apache-activemq-5.10.0/conf/credentials.properties",
+		"/C/development/git/CommunityPortalReports/SQL/Scripts/SP_CONTAINER_OBDETAIL.sql",
+		"/C/development/git/CommunityPortalReports/SQL/Scripts/SP_CONTAINER_IBDETAIL.sql",
+		"/C/development/git/CommunityPortalReports/SQL/Scripts/SP_VESSELOBSUMMARY.sql",
+		"/C/development/git/CommunityPortalReports/SQL/create_tasuser.sql",
+		"/C/development/git/CommunityPortal/Scripts/SQL/CreateCommunityPortal.sql",
+		"/C/Users/Sean/Desktop/VesselOutboundDetail20150119 (1).csv",
+		"/C/Users/Sean/Desktop/VesselOutboundDetail20150119.csv",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.Scheduler/bin/20150114 - HPA.CommunityPortal.Quartz.Log.txt",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/MakePortalApiRequest/MakePortalApiRequest.csx",
+		"/Z/Delivery/6 Testing/Test Data/eBIS Customers/PROD HPAPB.xml",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/BulkRunIn 20140617 01.wsdl",
+		"/C/development/git/CommunityPortal/packages/Microsoft.AspNet.Razor.3.2.2/lib/net45/System.Web.Razor.xml",
+		"/C/Program Files (x86)/Calendar Sync V2/ci_1",
+		"/C/Program Files (x86)/DOSBox-0.74/Documentation/README.txt",
+		"/C/Program Files (x86)/DOSBox-0.74/Games/Battle Chess/!!-README-!!.txt",
+		"/C/Program Files (x86)/Calendar Sync V2/Calendar Sync.exe.config",
+		"/C/development/git/CommunityPortal/packages/FluentMigrator.1.3.1.0/tools/FluentMigrator.xml",
+		"/C/development/git/CommunityPortal/packages/FluentMigrator.1.3.1.0/tools/Migrate.exe.config",
+		"//wstad02/c$/FluentMigrator.Tools/Migrate.exe.config",
+		"/C/development/git/CommunityPortal/packages/FluentMigrator.1.3.1.0/tools/Npgsql.XML",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/VesselInboundDetail20141218 CAPITAINE TASMAN 137S.csv",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/EXPCapitaine Tasman 131N.CSV",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal/out.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.Scheduler/1.5.0.1/20141215 - HPA.CommunityPortal.Quartz.Log.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.Scheduler/1.5.0.2/20141215 - HPA.CommunityPortal.Quartz.Log.txt",
+		"//wsdom02/group/Ajilon/Delivery/2 Requirements/From Business/nGen/BulkRunIn Empty/BulkRunIn 20140617 01.wsdl",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.Scheduler/1.5.0.0/20141215 - HPA.CommunityPortal.Quartz.Log.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.Scheduler/1.5.0.0/20141125 - HPA.CommunityPortal.Quartz.Log.txt",
+		"/C/Users/Sean/Desktop/foo.json",
+		"/C/development/git/CommunityPortal/Scripts/SQL/RailTrack/SP_RETRIEVE_RAILTAGGED_IMPORTS.sql",
+		"/C/Users/Sean/Desktop/BulkRunRequest.txt",
+		"/C/Users/Sean/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/css/font-awesome.css",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/24645-HPAPB_Financial_Penalties_20141201_055002.csv",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/ajies domain.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Concall details.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/msdn.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/RTA/School Crossing Safety Program (SCSP)/Solution architecture structure.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Wicket Island.txt",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/TOSCA_ConnectionString_Error.txt",
+		"/C/Users/Sean/Desktop/document.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/NSW Department of Justice/JUJ Electronic AVO & Application support/Questions.txt",
+		"/C/development/git/CommunityPortal/Scripts/SQL/TOSCA/CreateTOSCAUser.sql",
+		"/C/Users/Sean/AppData/Roaming/Microsoft/VisualStudio/11.0/ActivityLog.xml",
+		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/RCT.txt",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_YardMove v0_1.xsd",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_FMM v0_2.xsd",
+		"/C/Users/Sean/Desktop/queryinput.json",
+		"/C/Users/Sean/Desktop/eventhub.info",
+		"/C/development/vsonline/Ajilon.CodeJam.Rio/scripts/Azure SQL Schema.sql",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_TruckStatus v0_1.xsd",
+		"//wsdom02/group/Ajilon/Delivery/2 Requirements/From Business/nGen/PRA/Sample XML/coparn20.dtd",
+		"/C/Users/Sean/Desktop/0",
+		"/C/Users/Sean/Dropbox/CodeJam 2014/Azure SQL Schema.sql",
+		"/C/development/vsonline/Ajilon.CodeJam.Rio/.gitignore",
+		"/C/development/vsonline/Ajilon.CodeJam.Rio/src/Ajilon.CodeJam.CRMWorker.sln",
+		"/C/development/vsonline/Ajilon.CodeJam.Rio/src/Ajilon.CodeJam.QueueHarness.sln",
+		"/C/Users/Sean/Dropbox/CodeJam 2014/stream analytics query.txt",
+		"//wstaq01/c$/Octopus/Applications/AjilonTesting/HPA.CommunityPortal.SynchronisationEngine/1.4.4.0/20141112 - HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"/C/Users/Sean/AppData/Roaming/Skype/My Skype Received Files/HPAPB_Truck_Turnaround_Time_2014_07_19_000000.csv",
+		"/C/development/git/CommunityPortal/Scripts/SQL/RailTrack/CreateRailTrackUser.sql",
+		"/C/development/git/CommunityPortal/Scripts/SQL/RailTrack/SP_RETRIEVE_PRA_INCOMMUNITY.sql",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_TruckManifest v0_7.xsd",
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_TruckManifestResp v0_1.xsd",
+		"/C/Users/Sean/Desktop/Dynamics SDK/mscrmeula.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.13/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"//wstad02/C$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.11/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.10/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.SynchronisationEngine/bin/Debug/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
+		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.SynchronisationEngine/bin/Debug/20141104 - HPA.CommunityPortal.SynchronisationEngine.Log.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wrapper-masthead",
+			"dynamic",
+			"RelatedEpic",
+			"IssueFieldsComponent",
+			"public",
+			"SetTitle",
+			"open",
+			"exception",
+			"103.246.233.26",
+			"REVENUE",
+			"Notification",
+			"MAGU2262473",
+			"CreateDynamicRow",
+			"3.",
+			"soapenv",
+			"BulkRunInResponse",
+			"+",
+			"low",
+			"report",
+			"reports",
+			" 	\n",
+			"sharepoint",
+			"codejamsensorhealthstream",
+			"currentEvent",
+			"currentReading",
+			"TCLU1905617",
+			"modifying existing Private Appointment 1104138899",
+			"TCLU1905617",
+			"1104138899",
+			"TM1411041342056283",
+			"ERROR",
+			"deleted manifests found",
+			"1 deleted manifests found",
+			"TM1411040950126276",
+			"created",
+			"creating",
+			"1104098666",
+			"1103078984",
+			"LotSize",
+			"\n",
+			"<ven:/",
+			"</",
+			"<",
+			"<ven:/",
+			"<",
+			"..\\..\\..\\packages",
+			"TopShelf",
+			"NonSer",
+			"189.9825",
+			"365,0.5205",
+			"189.9825",
+			"remotes/origin/",
+			"  remotes/origin/",
+			"18092014528",
+			"194.70",
+			"CREATE TAble communityportal_terminal",
+			"communityportal_terminal",
+			"04/10",
+			"Generation of Invoice failed for company",
+			"Error",
+			",27)",
+			",41)",
+			",41,",
+			",27,",
+			",41,",
+			",27,",
+			",41,",
+			"SoilCategoryIdOverriden",
+			"[",
+			"] [bit] NULL,",
+			"] [int] NOT NULL,",
+			"[",
+			"] [bit] NULL,",
+			"] [int] NOT NULL,",
+			"] [int] IDENTITY(1,1) NOT NULL,",
+			".",
+			"350",
+			"oracle",
+			"authent",
+			">package",
+			"error",
+			",227,",
+			",214,",
+			"values (TariffIdSequence.nextVal,",
+			"insert into  Tariff (ID, TARIFFTYPE, FEE, STARTDAYSAFTERFSP, ENDDAYSAFTERFSP) ",
+			"INSERT INTO UserPermission(Id, UserId,  PermissionId, TerminalId) SELECT RegisteredUser.Id,",
+			"UserPermission(UserId,",
+			"RegisteredUserIdSequence",
+			"companyidsequence",
+			"companyTypeSequence",
+			"PermissionIdSequence"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"IssueFieldsWithComponent",
+			"lololol",
+			"",
+			"input",
+			"currentReading",
+			"currentEvent",
+			"</ven:",
+			"<ven:",
+			"</ven:",
+			"<ven:",
+			"..\\..\\packages",
+			"189.98",
+			"1,189.98",
+			"189.98",
+			"",
+			"05/10",
+			",2)",
+			",3)",
+			",2,",
+			"",
+			",1,",
+			",2,",
+			"SELECT SEQ_TARIFF_ID.nextVal, 0, 80.00, 1, 2, ID FROM TERMINAL WHERE COde='HPAFI';",
+			"insert into  Tariff (ID, TARIFFTYPE, FEE, STARTDAYSAFTERFSP, ENDDAYSAFTERFSP, TerminalId)",
+			"INSERT INTO UserPermission(Id, UserId,  PermissionId, TerminalId) SELECT SEQ_USERPERMISSION_ID.nextval, RegisteredUser.Id,",
+			"UserPermission(Id, UserId,",
+			"SEQ_REGISTEREDUSER_ID",
+			"SEQ_COMPANY_ID",
+			"SEQ_COMPANYTYPE_ID",
+			"SEQ_PERMISSION_ID"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/oracle/product/11.2.0/dbhome_1/NETWORK/ADMIN/tnsnames.ora"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true
+}
