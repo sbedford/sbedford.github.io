@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     <meta name="author" content="{{ site.name }}" />
     <meta name="description" content="{{ site.description }}">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
-  {% include analytics.html %}
+
   <body>
     <div class="wrapper-masthead">
       <div class="container">
@@ -49,6 +49,6 @@
       </div>
     </div>
 
-    
+    {% include analytics.html %}
   </body>
 </html>

@@ -19,7 +19,23 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 2044,
+				"buffer_size": 1576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 1706,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.scss",
+			"settings":
+			{
+				"buffer_size": 3952,
 				"line_ending": "Windows"
 			}
 		}
@@ -48,10 +64,10 @@
 	},
 	"file_history":
 	[
-		"/C/development/git/sbedford.github.io/style.scss",
-		"/C/development/git/sbedford.github.io/about.md",
 		"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
 		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
+		"/C/development/git/sbedford.github.io/style.scss",
+		"/C/development/git/sbedford.github.io/about.md",
 		"/C/development/git/sbedford.github.io/_config.yml",
 		"/C/Users/Sean/Dropbox/Resume/Microsoft Business Solution Lead Key Points",
 		"/C/development/git/sbedford.github.io/images/step1.gif",
@@ -193,6 +209,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"media",
+			"left-col",
 			"wrapper-masthead",
 			"dynamic",
 			"RelatedEpic",
@@ -339,15 +357,15 @@
 					"file": "_config.yml",
 					"settings":
 					{
-						"buffer_size": 2044,
+						"buffer_size": 1576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								343,
+								343
 							]
 						],
 						"settings":
@@ -358,6 +376,62 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 1706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1353,
+								1353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.scss",
+					"settings":
+					{
+						"buffer_size": 3952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3952,
+								3952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

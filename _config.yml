@@ -1,21 +1,6 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
 name: Sean Bedford 
-
-# Short bio or description (displayed in the header)
-description: Solution Architect from Sydney Australia
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+description: Ramblings of a guy who does stuff with Microsoft tech
 avatar: https://avatars1.githubusercontent.com/u/1159074
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
   email: sean.bedford@gmail.com
@@ -25,14 +10,10 @@ footer-links:
   instagram: 
   linkedin: au.linkedin.com/in/seanbedford
   pinterest: 
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: 
   twitter: sbedford
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-
-# Your disqus shortname, entering this will enable commenting on posts
 disqus: seanbedford
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-59499981-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
@@ -71,3 +52,5 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - sbedford.github.io.sublime-project
+    - sbedford.github.io.sublime-workspace
