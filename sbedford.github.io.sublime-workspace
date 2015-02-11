@@ -16,41 +16,26 @@
 	"buffers":
 	[
 		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 2065,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv='X-UA-Compatible' content='IE=edge'>\n    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>\n\n    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>\n\n    <meta name=\"author\" content=\"{{ site.name }}\" />\n    <meta name=\"description\" content=\"{{ site.description }}\">\n\n    <!--[if lt IE 9]>\n      <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n    <![endif]-->\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ site.baseurl }}/style.css\" />\n    <link rel=\"alternate\" type=\"application/rss+xml\" title=\"{{ site.name }} - {{ site.description }}\" href=\"{{ site.baseurl }}/feed.xml\" />\n  </head>\n\n  <body>\n    <div class=\"wrapper-masthead\">\n      <div class=\"container\">\n        <header class=\"masthead clearfix\">\n          <a href=\"{{ site.baseurl }}/\" class=\"site-avatar\"><img src=\"{{ site.avatar }}\" /></a>\n          \n          <div class=\"site-info\">\n            <h1 class=\"site-name\"><a href=\"{{ site.baseurl }}/\">{{ site.name }}</a></h1>\n            <p class=\"site-description\">{{ site.description }}</p>\n          </div>\n          \n          <nav>\n            <a href=\"{{ site.baseurl }}/\">Blog</a>\n            <a href=\"{{ site.baseurl }}/about\">About</a>\n          </nav>\n        </header>\n      </div>\n    </div>\n\n    <div id=\"main\" role=\"main\" class=\"container\">\n      {{ content }}\n    </div>\n\n    <div class=\"wrapper-footer\">\n      <div class=\"container\">\n        <footer class=\"footer\">\n          {% include svg-icons.html %}\n        </footer>\n      </div>\n    </div>\n\n    {% include analytics.html %}\n  </body>\n</html>\n",
-			"file": "_layouts/default.html",
-			"file_size": 1791,
-			"file_write_time": 130679288196013017,
-			"settings":
-			{
-				"buffer_size": 1731,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "_posts/2015-01-08-git-jira-releasenotes.md",
 			"settings":
 			{
-				"buffer_size": 825,
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 1706,
+				"buffer_size": 7972,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style.scss",
+			"file": "_posts/2015-1-6-open-source-done-right.md",
 			"settings":
 			{
-				"buffer_size": 3952,
+				"buffer_size": 2361,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 1575,
 				"line_ending": "Windows"
 			}
 		}
@@ -79,20 +64,25 @@
 	},
 	"file_history":
 	[
-"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
-		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
-		"/C/development/git/sbedford.github.io/style.scss",
 		"/C/development/git/sbedford.github.io/_config.yml",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/Generate.csx",
+		"/C/tools/python/NEWS.txt",
+		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/packages.config",
+		"/C/development/git/CommunityPortal/genReleaseNotes.sh",
+		"/C/development/git/sbedford.github.io/style.scss",
+		"/C/development/git/sbedford.github.io/_layouts/default.html",
+		"/C/development/git/sbedford.github.io/sbedford.github.io.sublime-project",
+		"/C/development/git/sbedford.github.io/sbedford.github.io.sublime-workspace",
+		"/C/development/git/sbedford.github.io/_posts/2015-01-08-git-jira-releasenotes.md",
+		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
+		"/C/development/git/sbedford.github.io/about.md",
 		"/C/Users/Sean/Dropbox/Resume/Microsoft Business Solution Lead Key Points",
 		"/C/development/git/sbedford.github.io/images/step1.gif",
-		"/C/development/git/sbedford.github.io/_layouts/default.html",
 		"/C/development/git/sbedford.github.io/_scss/_highlights.scss",
 		"/C/development/git/sbedford.github.io/_site/style.css",
 		"/C/tools/rubydevkit/config.yml",
 		"/C/development/git/CommunityPortal/.gitignore",
 		"/C/Users/Sean/Desktop/foo.csx",
-		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/Generate.csx",
-		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/packages.config",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/foo.csx",
 		"/C/development/playpen/releaseNotes/releaseNotes/packages.config",
 		"/C/development/gist/libgittest/app.csx",
@@ -102,7 +92,6 @@
 		"/C/development/playpen/LibGit2Sharp/app.csx",
 		"/C/development/playpen/LibGit2Sharp/packages.config",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/OracleDocumentationGenerator/GenerateDocumentation.csx",
-		"/C/development/git/CommunityPortal/genReleaseNotes.sh",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/build/net40/LibGit2Sharp.props",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/App_Readme/LibGit2Sharp.README.md",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/scriptcs_packages/LibGit2Sharp.0.21.0.176/App_Readme/libgit2.license.txt",
@@ -202,10 +191,7 @@
 		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.13/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
 		"//wstad02/C$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
 		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.11/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.10/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.SynchronisationEngine/bin/Debug/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"/C/development/git/CommunityPortal/src/HPA.CommunityPortal.SynchronisationEngine/bin/Debug/20141104 - HPA.CommunityPortal.SynchronisationEngine.Log.txt"
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.11/HPA.CommunityPortal.SynchronisationEngine.Log.txt"
 	],
 	"find":
 	{
@@ -223,6 +209,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'''",
 			"media",
 			"left-col",
 			"wrapper-masthead",
@@ -368,74 +355,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_config.yml",
+					"file": "_posts/2015-01-08-git-jira-releasenotes.md",
 					"settings":
 					{
-						"buffer_size": 2065,
+						"buffer_size": 7972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								852,
-								852
+								3620,
+								3620
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_layouts/default.html",
+					"file": "_posts/2015-1-6-open-source-done-right.md",
 					"settings":
 					{
-						"buffer_size": 1731,
+						"buffer_size": 2361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1712,
-								1684
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2015-01-08-git-jira-releasenotes.md",
-					"settings":
-					{
-						"buffer_size": 825,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								425
+								2071,
+								2071
 							]
 						],
 						"settings":
@@ -447,53 +406,31 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-						"buffer_size": 1706,
+				},
+				{
+					"buffer": 2,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 1575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1353,
-								1353
+								1023,
+								1023
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "style.scss",
-					"settings":
-					{
-						"buffer_size": 3952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3952,
-								3952
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
