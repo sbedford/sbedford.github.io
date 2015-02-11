@@ -27,7 +27,7 @@
 			"file": "_posts/2015-1-6-open-source-done-right.md",
 			"settings":
 			{
-				"buffer_size": 2361,
+				"buffer_size": 2389,
 				"line_ending": "Windows"
 			}
 		},
@@ -350,7 +350,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -386,15 +386,15 @@
 					"file": "_posts/2015-1-6-open-source-done-right.md",
 					"settings":
 					{
-						"buffer_size": 2361,
+						"buffer_size": 2389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2071,
-								2071
+								1148,
+								1148
 							]
 						],
 						"settings":
@@ -419,7 +419,7 @@
 						"selection":
 						[
 							[
-								1023,
+								1015,
 								1023
 							]
 						],
