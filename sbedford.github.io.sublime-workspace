@@ -35,7 +35,7 @@
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 1575,
+				"buffer_size": 1537,
 				"line_ending": "Windows"
 			}
 		}
@@ -64,6 +64,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Sean/Desktop/RPT_BITRE20150211 (1).csv",
+		"/C/Users/Sean/Desktop/RPT_BITRE20150211.csv",
+		"/C/Users/Sean/Desktop/Rpt_BITRE.csv",
 		"/C/development/git/sbedford.github.io/_config.yml",
 		"/C/development/git/CommunityPortal/Scripts/ScriptCS/ReleaseNotes/Generate.csx",
 		"/C/tools/python/NEWS.txt",
@@ -188,10 +191,7 @@
 		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_TruckManifest v0_7.xsd",
 		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_TruckManifestResp v0_1.xsd",
 		"/C/Users/Sean/Desktop/Dynamics SDK/mscrmeula.txt",
-		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.13/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"//wstad02/C$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.12/HPA.CommunityPortal.SynchronisationEngine.Log.txt",
-		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.11/HPA.CommunityPortal.SynchronisationEngine.Log.txt"
+		"//wstad02/c$/Octopus/Applications/DevelopmentTesting/HPA.CommunityPortal.SynchronisationEngine/1.0.0.13/HPA.CommunityPortal.SynchronisationEngine.Log.txt"
 	],
 	"find":
 	{
@@ -412,15 +412,15 @@
 					"file": "_config.yml",
 					"settings":
 					{
-						"buffer_size": 1575,
+						"buffer_size": 1537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1015,
-								1023
+								985,
+								985
 							]
 						],
 						"settings":
