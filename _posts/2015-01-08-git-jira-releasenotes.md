@@ -53,7 +53,7 @@ The script was pretty straight-forward really - using the following libraries to
 * [JiraRestClient](https://github.com/techtalk/JiraRestClient)
 * [OpenXml](https://github.com/OfficeDev/Open-XML-SDK)
 
-The only problem that it didnt work, at least [not straight away](/2015-1-6-open-source-done-right.md) due to [issues](https://github.com/scriptcs/scriptcs/issues/913) with ScriptCS struggling to load the native assemblies required for the LibGit2Sharp nuget package.
+The only problem that it didnt work, at least [not straight away](/open-source-done-right) due to [issues](https://github.com/scriptcs/scriptcs/issues/913) with ScriptCS struggling to load the native assemblies required for the LibGit2Sharp nuget package.
 
 Using LibGit2Sharp to extract the commits between the tags was pretty simply - find the tags, exectute a search and then consume the data.  The only gotcha was the ordering of the search parameters as you're walking backwards from the current HEAD of the repository:
 
