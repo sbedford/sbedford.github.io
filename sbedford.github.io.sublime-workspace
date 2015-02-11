@@ -19,7 +19,7 @@
 			"file": "_posts/2015-01-08-git-jira-releasenotes.md",
 			"settings":
 			{
-				"buffer_size": 7972,
+				"buffer_size": 7957,
 				"line_ending": "Windows"
 			}
 		},
@@ -350,7 +350,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -358,15 +358,15 @@
 					"file": "_posts/2015-01-08-git-jira-releasenotes.md",
 					"settings":
 					{
-						"buffer_size": 7972,
+						"buffer_size": 7957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3620,
-								3620
+								2875,
+								2875
 							]
 						],
 						"settings":
@@ -376,7 +376,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 299.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

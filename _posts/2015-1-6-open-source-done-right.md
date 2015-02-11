@@ -9,7 +9,7 @@ I've been building up a suite of [ScriptCS](https://github.com/scriptcs/scriptcs
 
 However I ran into a pretty nasty bug which stopped me in my tracks!
 
-After some pretty useless googling, I pinged a twitter message to [Glenn Block](www.twitter.com/gblock) which got the ball rolling.
+After some pretty useless googling, I pinged a twitter message to [Glenn Block](http://www.twitter.com/gblock) which got the ball rolling.
 
 The response I received was nothing short of amazing.  
 
@@ -31,7 +31,7 @@ I realise this may not be standard of service for all Open Source projects and I
 
 Open Source provides a way to interact with people around the world that you wouldn't normally interact with.  
 
-While I knew of Glenn from his great work on the [Web API](www.asp.net/web-api) platform (among others), he is not someone who I had spoken to before.  However, due to his public contributions to [ScriptCS](https://github.com/scriptcs/scriptcs) I knew that he was the guy to ask first.
+While I knew of Glenn from his great work on the [Web API](http://www.asp.net/web-api) platform (among others), he is not someone who I had spoken to before.  However, due to his public contributions to [ScriptCS](https://github.com/scriptcs/scriptcs) I knew that he was the guy to ask first.
 
 I'm very glad that I did.
 
@@ -41,4 +41,4 @@ Inspired to create this blog for a start!
 
 Further, I'm going to contribute more to the Open Source frameworks I use.
 
-So thank you [Glenn Block](www.twitter.com/gblock), [Adam Ralph](www.twitter.com/adamralph) and everyone associated with [ScriptCS](https://github.com/scriptcs/scriptcs).
+So thank you [Glenn Block](http://www.twitter.com/gblock), [Adam Ralph](http://www.twitter.com/adamralph) and everyone associated with [ScriptCS](https://github.com/scriptcs/scriptcs).
