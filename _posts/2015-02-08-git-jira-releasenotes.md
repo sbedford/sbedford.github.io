@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Using ScriptCS to automate release notes
+byline: How I replaced a dodgy bash shellscript with some ScriptCS magic to generate release notes from our Git and Jira repositories.
 ---
-
-This post describes how I replaced a dodgy bash shellscript with some ScriptCS magic to generate release notes from our Git and Jira repositories.
-
-###Overview
 
 My project needs release notes containing information like the Jira tickets resolved in the release, the number and scale of the source code changes, etc.  This information is provided both to our testers so they know what has changed, and also to our clients internal change control board.
 

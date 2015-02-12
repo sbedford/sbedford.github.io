@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Source Done Right
+byline: How a positive experience can inspire you!
 ---
 
 So I had a pretty neat experience over the last couple of days with the guys from [ScriptCS](https://github.com/scriptcs/scriptcs).
