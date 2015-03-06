@@ -1,5 +1,5 @@
 name: Sean Bedford 
-description: Ramblings of a guy who does stuff with Microsoft tech
+description: 
 avatar: https://avatars1.githubusercontent.com/u/1159074
 footer-links:
   dribbble: 
@@ -18,7 +18,7 @@ google_analytics: UA-59499981-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://sbedford.github.io
+url: http://www.sean-bedford.com
 
 # If you're hosting your site at a Project repository on GitHub pages 
 # (http://yourusername.github.io/repository-name)

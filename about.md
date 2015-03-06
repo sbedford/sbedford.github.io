@@ -4,16 +4,40 @@ title: About
 permalink: /about/
 ---
 
-I'm a Solutions Architect who has been working professionally in Microsoft Technologies for over 10 years.
+My name is Sean Bedford and I am a Solutions Architect at [Ajilon](www.ajilon.com.au).  
 
-I've been working with [Ajilon](www.ajilon.com.au), a business and technology consulting company, for the last 5 years in a mixture of delivery and pre-sales roles.
+Who knows where this blog will end up - I plan to blog about interesting solutions to problems I have encountered and give my opinion on technology issues but we'll see where we end up.
 
-## Family
+## Employment
 
-I have a wife and two beautiful daughters; my eldest Emily has just started Primary School!
+As mentioned, I'm currently working with [Ajilon](www.ajilon.com.au), a business and technology consulting company.
 
-## Other stuff
+I've worked with Ajilon for the last 5 years as a Solution Architect and Technical Team Lead for projects on the Microsoft stack.  
 
-I'm learning to play the guitar! I've had an acoustic guitar for over a year now and have just discovered Rocksmith....Rock on...
+I have also done my fair share of Pre-Sales activities which is always a challenge and very enjoyable.
 
-[sean.bedford@gmail.com](mailto:sean.bedford@gmail.com)
+Prior to Ajilon I worked for [Asciano](www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
+
+More details on my [Linkedin](http://linkedin.com/in/{{ site.footer-links.linkedin }}) profile.
+
+##Technology
+
+My background is mainly in Microsoft technologies however I'll use whatever tools I have at my disposal to ensure a good outcome.
+
+I have developed Web and Windows applications on the .NET Frameowrk since version 1.0 and have watched the platform mature and Microsoft evolve into the world class platform it is today.
+
+I've had plenty of experience designing and implementing solutions on various business application platforms like SharePoint and Dynamics CRM, as well as Identity Management platforms like Active Directory and Forefront.  
+
+The cloud provides many opportunities for developers and architects to position and deliver solutions.  My focus has mainly been on Azure however I have also designed and deployed solutions on AWS. 
+
+##Personal
+
+I'm from Sydney Australia, more specifically from [Maroubra](https://www.google.com.au/maps/place/Maroubra+NSW/data=!4m2!3m1!1s0x6b12b3ce176e4569:0x5017d681632c000) in Sydney's Eastern Suburbs.
+
+I've got 2 beautiful girls, Emily and Lucy who keep me pretty busy but when I can find the time I enjoy surfing, golfing (my handicap is 11.8 but I have no chance of playing to that these days.) and playing the guitar.
+
+I'm also a mad [South Sydney Rabbitohs](www.rabbitohs.com.au) fan and can't wait to see if the boys can go back to back in 2015.
+
+## This blog
+
+I forked [Jekyll-Now](https://github.com/barryclark/jekyll-now) from Barry Clark to use as a base for this blog.  I've kind of customised the layout but it still needs a fair bit of work.  The source is up on [GitHub](https://github.com/sbedford/sbedford.github.io).
