@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ADX Studio Overview
+byline: Introduction to a series of posts on using ADX Studio to deliver a portal for Dynamics CRM.
 ---
 
 So I just started a new job! First day on the job was the first day of a week of training!
