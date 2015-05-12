@@ -4,19 +4,21 @@ title: About
 permalink: /about/
 ---
 
-My name is Sean Bedford and I am a Solutions Architect at [Ajilon](www.ajilon.com.au).  
+My name is Sean Bedford and I am a Solutions Architect at [Empired](www.empired.com).  
 
 Who knows where this blog will end up - I plan to blog about interesting solutions to problems I have encountered and give my opinion on technology issues but we'll see where we end up.
 
 ## Employment
 
-As mentioned, I'm currently working with [Ajilon](www.ajilon.com.au), a business and technology consulting company.
+I've just joined [Empired](www.empired.com) (April 2015), a Microsoft Gold Partner providing specialised consulting services to clients across Australia and New Zeland.  Empired offers services across Business Productivity Soltions (Dynamics CRM, AX, NAV), Collaboration and Content (SharePoint, Sitecore, etc) as well as IT managed services and application development and integration. 
 
-I've worked with Ajilon for the last 5 years as a Solution Architect and Technical Team Lead for projects on the Microsoft stack.  
+I work in the Business Productivity Solutions team as a Solution Architect mainly looking at integration and implementation challenges across the Dynamics stack. 
+
+Previously,  I worked with Ajilon as a Solution Architect and Technical Team Lead for a number of projects on the Microsoft stack.  
 
 I have also done my fair share of Pre-Sales activities which is always a challenge and very enjoyable.
 
-Prior to Ajilon I worked for [Asciano](www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
+Even further back I worked for [Asciano](www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
 
 More details on my [Linkedin](http://linkedin.com/in/{{ site.footer-links.linkedin }}) profile.
 
@@ -34,7 +36,7 @@ The cloud provides many opportunities for developers and architects to position 
 
 I'm from Sydney Australia, more specifically from [Maroubra](https://www.google.com.au/maps/place/Maroubra+NSW/data=!4m2!3m1!1s0x6b12b3ce176e4569:0x5017d681632c000) in Sydney's Eastern Suburbs.
 
-I've got 2 beautiful girls, Emily and Lucy who keep me pretty busy but when I can find the time I enjoy surfing, golfing (my handicap is 11.8 but I have no chance of playing to that these days.) and playing the guitar.
+I've got 2 beautiful girls, Emily and Lucy who keep me pretty busy but when I can find the time I enjoy surfing, golfing (my handicap is 11.8 but I have no chance of playing to that these days) and playing the guitar.
 
 I'm also a mad [South Sydney Rabbitohs](www.rabbitohs.com.au) fan and can't wait to see if the boys can go back to back in 2015.
 
