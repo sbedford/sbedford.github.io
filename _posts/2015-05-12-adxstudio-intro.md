@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ADX Studio Overview
+title: ADX Studio Introduction
 byline: Introduction to a series of posts on using ADX Studio to deliver a portal for Dynamics CRM.
 ---
 
@@ -8,7 +8,7 @@ So I just started a new job! First day on the job was the first day of a week of
 
 No easing into it here at Empired!
 
-My new role is a Solution Architect across the Business Productivity Solution team.  Sounds neat eh? Basically, this team looks at delivering value to customers through the Microsoft Dynamics stack - CRM & ERP flavours (AX, NAV).
+My new role is a Solution Architect in the Business Productivity Solution team.  Sounds neat eh? Basically, this team looks at delivering value to customers through the Microsoft Dynamics stack - CRM & ERP flavours (AX, NAV).
 
 One of the big requirements which comes up frequently from our customers are portal components which either provide access to data stored within Dynamics CRM, or need a friendly, public interface for services offerred by the platform.
 
@@ -18,8 +18,11 @@ I'm not going into a comparison of the three options however I do want to provid
 
 I think I can cover off everything in a single post, so the plan is:
 
-1. Overview 
+1. [Overview](/adxstudio-part-1)
 1. Security
+1. ASP.NET Dependencies
+1. Portal Theming and Branding
 1. Content Management System Functions
-1. Dynamics CRM Entity View
-1. Dynamics CRM Entity Lists
+1. Entity Views & Lists
+1. Web Forms
+1. ALM Toolkit
