@@ -16,18 +16,10 @@
 	"buffers":
 	[
 		{
-			"file": "about.md",
-			"settings":
-			{
-				"buffer_size": 3097,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "_posts/2015-05-12-adxstudio-intro.md",
 			"settings":
 			{
-				"buffer_size": 1329,
+				"buffer_size": 1345,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,15 +27,15 @@
 			"file": "_posts/2015-05-12-adxstudio-part-1.md",
 			"settings":
 			{
-				"buffer_size": 161,
+				"buffer_size": 6845,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_posts/2015-02-06-open-source-done-right.md",
+			"file": "_posts/2015-06-21-adxstudio-part-2.md",
 			"settings":
 			{
-				"buffer_size": 2440,
+				"buffer_size": 5813,
 				"line_ending": "Windows"
 			}
 		}
@@ -72,6 +64,12 @@
 	},
 	"file_history":
 	[
+		"/C/development/git/sbedford.github.io/_posts/2015-02-06-open-source-done-right.md",
+		"/C/Users/sbedford/Desktop/fr000001.xml",
+		"/C/Users/sbedford/AppData/Local/Microsoft/Windows/INetCache/IE/5CJWVF3X/ErrorDetails.txt",
+		"/C/Users/sbedford/AppData/Local/Microsoft/Windows/INetCache/IE/9JERA3VK/ErrorDetails.txt",
+		"/C/Users/sbedford/Dropbox/Empired/Offer/Super Details.txt",
+		"/C/development/git/sbedford.github.io/about.md",
 		"/C/Users/sbedford/Dropbox/pickashirt.txt",
 		"/C/Users/sbedford/Desktop/Lync-UccApi-0.UccApilog",
 		"/C/tools/rubydevkit/config.yml",
@@ -105,7 +103,6 @@
 		"/C/development/git/sbedford.github.io/sbedford.github.io.sublime-project",
 		"/C/development/git/sbedford.github.io/sbedford.github.io.sublime-workspace",
 		"/C/development/git/sbedford.github.io/_posts/2015-1-6-the-beauty-of-open-source.md",
-		"/C/development/git/sbedford.github.io/about.md",
 		"/C/Users/Sean/Dropbox/Resume/Microsoft Business Solution Lead Key Points",
 		"/C/development/git/sbedford.github.io/images/step1.gif",
 		"/C/development/git/sbedford.github.io/_scss/_highlights.scss",
@@ -194,12 +191,7 @@
 		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/TOSCA_ConnectionString_Error.txt",
 		"/C/Users/Sean/Desktop/document.txt",
 		"/C/Users/Sean/Dropbox/Ajilon Documents/NSW Department of Justice/JUJ Electronic AVO & Application support/Questions.txt",
-		"/C/development/git/CommunityPortal/Scripts/SQL/TOSCA/CreateTOSCAUser.sql",
-		"/C/Users/Sean/AppData/Roaming/Microsoft/VisualStudio/11.0/ActivityLog.xml",
-		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/RCT.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_YardMove v0_1.xsd",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/Hutchison Ports/Truck Appointment System Upgrade/1-Stop Integration/XSD/1-Stop/VBS_FMM v0_2.xsd",
-		"/C/Users/Sean/Desktop/queryinput.json"
+		"/C/development/git/CommunityPortal/Scripts/SQL/TOSCA/CreateTOSCAUser.sql"
 	],
 	"find":
 	{
@@ -217,6 +209,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tinymce",
+			"ERROR",
+			"Template",
+			".  	",
 			"SP_CP_Collection_Period",
 			"accomodation",
 			".",
@@ -368,23 +364,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "about.md",
+					"file": "_posts/2015-05-12-adxstudio-intro.md",
 					"settings":
 					{
-						"buffer_size": 3097,
+						"buffer_size": 1345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								895,
-								895
+								1252,
+								1252
 							]
 						],
 						"settings":
@@ -392,25 +388,25 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 49.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2015-05-12-adxstudio-intro.md",
+					"file": "_posts/2015-05-12-adxstudio-part-1.md",
 					"settings":
 					{
-						"buffer_size": 1329,
+						"buffer_size": 6845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1329,
-								1329
+								565,
+								565
 							]
 						],
 						"settings":
@@ -425,52 +421,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_posts/2015-05-12-adxstudio-part-1.md",
+					"file": "_posts/2015-06-21-adxstudio-part-2.md",
 					"settings":
 					{
-						"buffer_size": 161,
+						"buffer_size": 5813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								5577,
+								5577
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_posts/2015-02-06-open-source-done-right.md",
-					"settings":
-					{
-						"buffer_size": 2440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1868.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
