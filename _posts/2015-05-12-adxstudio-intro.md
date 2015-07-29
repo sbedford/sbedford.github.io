@@ -16,11 +16,4 @@ There are a number of options for delivering portal features - build your own cu
 
 I'm not going into a comparison of the three options however I do want to provide an insight into what is possible with ADX and highlight the good and the bad bits.
 
-I dont think I can cover off everything in a single post, so the plan is:
-
-1. [Overview](/adxstudio-part-1)
-1. [Security](/adxstudio-part-2)
-1. ASP.NET Dependencies
-1. Portal Theming and Branding
-1. Entity Views & Lists
-1. Web Forms
+I dont think I can cover off everything in a single post so I'm going to put a couple up a posts covering areas of interest.

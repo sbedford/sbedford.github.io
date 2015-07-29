@@ -19,23 +19,15 @@
 			"file": "_posts/2015-05-12-adxstudio-intro.md",
 			"settings":
 			{
-				"buffer_size": 1345,
+				"buffer_size": 1342,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_posts/2015-05-12-adxstudio-part-1.md",
+			"file": "_posts/2015-07-07-adxstudio-part-3.md",
 			"settings":
 			{
-				"buffer_size": 6845,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_posts/2015-06-21-adxstudio-part-2.md",
-			"settings":
-			{
-				"buffer_size": 5813,
+				"buffer_size": 161,
 				"line_ending": "Windows"
 			}
 		}
@@ -64,6 +56,13 @@
 	},
 	"file_history":
 	[
+		"/C/development/git/sbedford.github.io/_posts/2015-06-22-adxstudio-part-3.md",
+		"/C/development/git/sbedford.github.io/_posts/2015-06-21-adxstudio-part-2.md",
+		"/C/development/git/sbedford.github.io/_posts/2015-05-12-adxstudio-part-1.md",
+		"/C/Users/sbedford/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/FWUDW7DT/Client HTML Alart.txt",
+		"/C/Users/sbedford/AppData/Local/Temp/Temp1_USDSitemapUpdates_1_0_0_0.zip/[Content_Types].xml",
+		"/C/Users/sbedford/AppData/Local/Temp/Temp1_USDSitemapUpdates_1_0_0_0.zip/solution.xml",
+		"/C/Users/sbedford/AppData/Local/Temp/Temp1_USDSitemapUpdates_1_0_0_0.zip/customizations.xml",
 		"/C/development/git/sbedford.github.io/_posts/2015-02-06-open-source-done-right.md",
 		"/C/Users/sbedford/Desktop/fr000001.xml",
 		"/C/Users/sbedford/AppData/Local/Microsoft/Windows/INetCache/IE/5CJWVF3X/ErrorDetails.txt",
@@ -184,14 +183,7 @@
 		"/C/Users/Sean/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/css/font-awesome.css",
 		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/24645-HPAPB_Financial_Penalties_20141201_055002.csv",
 		"/C/Users/Sean/Dropbox/Ajilon Documents/ajies domain.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/Concall details.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/msdn.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/RTA/School Crossing Safety Program (SCSP)/Solution architecture structure.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/Wicket Island.txt",
-		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/TOSCA_ConnectionString_Error.txt",
-		"/C/Users/Sean/Desktop/document.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/NSW Department of Justice/JUJ Electronic AVO & Application support/Questions.txt",
-		"/C/development/git/CommunityPortal/Scripts/SQL/TOSCA/CreateTOSCAUser.sql"
+		"/C/Users/Sean/Dropbox/Ajilon Documents/Concall details.txt"
 	],
 	"find":
 	{
@@ -209,6 +201,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Parental",
+			"available",
 			"tinymce",
 			"ERROR",
 			"Template",
@@ -364,7 +358,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -372,15 +366,15 @@
 					"file": "_posts/2015-05-12-adxstudio-intro.md",
 					"settings":
 					{
-						"buffer_size": 1345,
+						"buffer_size": 1342,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1252,
-								1252
+								1280,
+								1280
 							]
 						],
 						"settings":
@@ -395,18 +389,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2015-05-12-adxstudio-part-1.md",
+					"file": "_posts/2015-07-07-adxstudio-part-3.md",
 					"settings":
 					{
-						"buffer_size": 6845,
+						"buffer_size": 161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								565,
-								565
+								161,
+								161
 							]
 						],
 						"settings":
@@ -415,32 +409,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2015-06-21-adxstudio-part-2.md",
-					"settings":
-					{
-						"buffer_size": 5813,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5577,
-								5577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1868.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ADX Studio Series Part 1 - Overview
+title: ADX Studio Series Overview
 byline: First post in the ADX Studio series giving an overview of the product and the key parts of the solution.
 ---
 
