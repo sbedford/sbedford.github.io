@@ -19,15 +19,31 @@
 			"file": "_posts/2015-05-12-adxstudio-intro.md",
 			"settings":
 			{
-				"buffer_size": 1342,
+				"buffer_size": 1237,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "_posts/2015-07-07-adxstudio-part-3.md",
+			"file": "_posts/2015-07-29-adxstudio-invitations.md",
 			"settings":
 			{
-				"buffer_size": 161,
+				"buffer_size": 2427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2015-05-12-adxstudio-part-1.md",
+			"settings":
+			{
+				"buffer_size": 6836,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2015-06-21-adxstudio-part-2.md",
+			"settings":
+			{
+				"buffer_size": 6920,
 				"line_ending": "Windows"
 			}
 		}
@@ -56,6 +72,7 @@
 	},
 	"file_history":
 	[
+		"/C/development/git/sbedford.github.io/images/2015-07-290-email.png",
 		"/C/development/git/sbedford.github.io/_posts/2015-06-22-adxstudio-part-3.md",
 		"/C/development/git/sbedford.github.io/_posts/2015-06-21-adxstudio-part-2.md",
 		"/C/development/git/sbedford.github.io/_posts/2015-05-12-adxstudio-part-1.md",
@@ -182,8 +199,7 @@
 		"/C/Users/Sean/Desktop/BulkRunRequest.txt",
 		"/C/Users/Sean/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/css/font-awesome.css",
 		"/C/Users/Sean/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AED0UWXF/24645-HPAPB_Financial_Penalties_20141201_055002.csv",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/ajies domain.txt",
-		"/C/Users/Sean/Dropbox/Ajilon Documents/Concall details.txt"
+		"/C/Users/Sean/Dropbox/Ajilon Documents/ajies domain.txt"
 	],
 	"find":
 	{
@@ -366,15 +382,15 @@
 					"file": "_posts/2015-05-12-adxstudio-intro.md",
 					"settings":
 					{
-						"buffer_size": 1342,
+						"buffer_size": 1237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1280,
-								1280
+								1237,
+								1237
 							]
 						],
 						"settings":
@@ -389,18 +405,70 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2015-07-07-adxstudio-part-3.md",
+					"file": "_posts/2015-07-29-adxstudio-invitations.md",
 					"settings":
 					{
-						"buffer_size": 161,
+						"buffer_size": 2427,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								1371,
+								1371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2015-05-12-adxstudio-part-1.md",
+					"settings":
+					{
+						"buffer_size": 6836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2015-06-21-adxstudio-part-2.md",
+					"settings":
+					{
+						"buffer_size": 6920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
 							]
 						],
 						"settings":

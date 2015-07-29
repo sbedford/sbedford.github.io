@@ -8,7 +8,18 @@ As I've spoken about before, ADX Studio supports a number of different [authenti
 
 The long and the short of it is that when your users authenticate using an external OAUTH provider, the identity claims provided by the federated identity provider need to match to a Contact record in Dynamics CRM.
 
-While it is possible to configure this information manually through the _Portal Contact_ form of the Contact entity, a MUCH easier way to link identities in this fashion is using the pre-built Invitation processes added to Dynamics CRM by the ADX Studio solutions.
+While it is possible to configure this information manually through the _Portal Contact_ form of the Contact entity, a MUCH easier way to link identities in this fashion is using the pre-built processes added to Dynamics CRM by the ADX Studio solutions.
+
+There are two main to provision identities in ADX Studio (excluding manually credating)
+
+1. Open Registration
+1. Registration through invitation
+
+Open Registration is self-describing - anyone with a valid identity from the approved federated providers can register with your portal.  This registration process creates the portal contact in Dynamics CRM however someone still needs to assign appropriate Web Roles if the user needs to access specific secured resources.  
+
+Open Registration can work in scenarios where you control the identities (i.e. On-Premise AD sync'd to Azure AD) however the Web Role is a consideration.
+
+The second option, the invitation process, requires that users are invited through email to join your portal and provides the ability to join Contacts and Web Roles upon registration.
 
 #Invitation Process
 
