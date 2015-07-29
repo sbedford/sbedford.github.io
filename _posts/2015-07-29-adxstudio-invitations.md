@@ -28,7 +28,7 @@ This process will result in an email being sent to the contact notifying them th
 
 Once the user receives the email and click the link, they will be presented with a page which asks them to either create an account (if portal credentials are in use), or login with the allowed federated identity providers.
 
-![ADX Studio Registration](/images/2015-07-29-registration.png "ADX Studio R")
+![ADX Studio Registration](/images/2015-07-29-register.png "ADX Studio Registration")
 
 The final step is performed once the user has provided their credentials and the login process completes.  The login process updates the web authentication section of the Contact record with both the Username and the Identity Provider.
 
