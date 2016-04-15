@@ -27,7 +27,7 @@
 			"file": "_posts/2015-07-29-adxstudio-invitations.md",
 			"settings":
 			{
-				"buffer_size": 2427,
+				"buffer_size": 3228,
 				"line_ending": "Windows"
 			}
 		},
@@ -408,15 +408,15 @@
 					"file": "_posts/2015-07-29-adxstudio-invitations.md",
 					"settings":
 					{
-						"buffer_size": 2427,
+						"buffer_size": 3228,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1371,
-								1371
+								266,
+								266
 							]
 						],
 						"settings":
