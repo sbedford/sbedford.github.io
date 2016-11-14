@@ -12,7 +12,7 @@ Who knows where this blog will end up - I plan to blog about interesting solutio
 
 I've just joined [Empired](www.empired.com) (April 2015), a Microsoft Gold Partner providing specialised consulting services to clients across Australia and New Zeland.  Empired offers services across Business Productivity Soltions (Dynamics CRM, AX, NAV), Collaboration and Content (SharePoint, Sitecore, etc) as well as IT managed services and application development and integration. 
 
-I work in the Dynamics team as a Solution Specialist supporting working with prospective and current customers to align business and technology decisions. 
+I work in the Dynamics team as a Solution Specialist working with prospective and current customers to align business and technology decisions in the Dynamics and wider Microsoft stack. 
 
 Previously,  I worked with Ajilon as a Solution Architect and Technical Team Lead for a number of projects on the Microsoft stack.  
 
