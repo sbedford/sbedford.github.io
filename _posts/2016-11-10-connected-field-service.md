@@ -116,8 +116,6 @@ The principle in this method is to capture all data provided to the Azure IoT Hu
 
 _Streaming Data Set_ capabilities in Power BI can be utilised to great effect to show the real-time status of sensors as the data is reported.
 
-![Power BI Streaming Dataset](/images/2016-11-10-pbi-streaming.png "Power BI Streaming Dataset")
-
 This option is generally the simplest to implement however it is technically not a true "Connected Field Service" solution as the fault conditions would have to be manually reported and managed.  It's connect Device to Analytics, but no further - obviously still valuable though.
 
 ### Remote Monitoring
@@ -125,6 +123,8 @@ This option is generally the simplest to implement however it is technically not
 The __Remote Monitoring__ method builds upon the Scorecard mechanic and is the first real foray into true _Connected Field Service_.
 
 Implementing a Remote Monitoring solution involves the _Stream Analytics_ service (and is a part of the default Connected Field Service solution).  This service is used to analyse a real-time, continuous stream of telemetry data and report when a particular fault condition is identified.
+
+![Power BI Streaming Dataset](/images/2016-11-10-pbi-streaming.png "Power BI Streaming Dataset")
 
 _Stream Analytics_ is interesting because not only can you look at the currently received message:
 
