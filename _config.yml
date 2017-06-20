@@ -52,6 +52,7 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - cacert.pem
     - sbedford.github.io.sublime-project
     - sbedford.github.io.sublime-workspace
 
