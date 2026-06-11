@@ -2,17 +2,40 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+{% assign featured_post = site.posts | where: "featured", true | first %}
+{% unless featured_post %}
+  {% assign featured_post = site.posts.first %}
+{% endunless %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<section class="post-featured">
+  <article class="post-card-featured">
+    <div class="post-card-featured__label">Featured post</div>
+    <span class="date">{{ featured_post.date | date: "%b %Y" }}</span>
+    {% if featured_post.banner %}
+    <img src="{{ site.baseurl }}{{ featured_post.banner }}" alt="{{ featured_post.title }}" class="post-card-featured__banner"/>
+    {% endif %}
+    <h1><a href="{{ site.baseurl }}{{ featured_post.url }}">{{ featured_post.title }}</a></h1>
+    {% if featured_post.byline %}
+    <p class="post-card-featured__excerpt">{{ featured_post.byline }}</p>
+    {% endif %}
+    <a href="{{ site.baseurl }}{{ featured_post.url }}" class="read-more">Read more</a>
+  </article>
+</section>
 
-      <div class="entry">
-        {{ post.byline }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+{% assign other_posts = site.posts | where_exp: "post", "post.url != featured_post.url" %}
+{% if other_posts.size > 0 %}
+<section class="post-archive">
+  <h2 class="post-archive__heading">More posts</h2>
+  <ul class="post-list">
+    {% for post in other_posts %}
+    <li class="post-list__item">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-list__link">
+        <span class="post-list__date">{{ post.date | date: "%b %Y" }}</span>
+        <span class="post-list__title">{{ post.title }}</span>
+        <span class="post-list__arrow">→</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

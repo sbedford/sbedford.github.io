@@ -2,6 +2,8 @@
 layout: post
 title: Building the Dynamics 365 application of the future
 byline: Microsoft have shown the new model for building Dynamics 365 applications and its awesome.
+featured: true
+banner: /images/2017-06-20-d365-apps-banner.svg
 ---
 
 Microsoft are beginning to realise the vision first described back when Dynamics 365 was launched.  
