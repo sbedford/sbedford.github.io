@@ -4,42 +4,28 @@ title: About
 permalink: /about/
 ---
 
-My name is Sean Bedford and I am a Solutions Specialist at [Empired](https://www.empired.com).  
+My name is Sean Bedford and I'm a technologist based in Sydney's eastern suburbs.
 
-Who knows where this blog will end up - I plan to blog about interesting solutions to problems I have encountered and give my opinion on technology issues but we'll see where we end up.
-
-## Employment
-
-I've just joined [Empired](https://www.empired.com) (April 2015), a Microsoft Gold Partner providing specialised consulting services to clients across Australia and New Zeland.  Empired offers services across Business Productivity Soltions (Dynamics CRM, AX, NAV), Collaboration and Content (SharePoint, Sitecore, etc) as well as IT managed services and application development and integration. 
-
-I work in the Dynamics team as a Solution Specialist working with prospective and current customers to align business and technology decisions in the Dynamics and wider Microsoft stack. 
-
-Previously,  I worked with Ajilon as a Solution Architect and Technical Team Lead for a number of projects on the Microsoft stack.  
-
-I have also done my fair share of Pre-Sales activities which is always a challenge and very enjoyable.
-
-Even further back I worked for [Asciano](https://www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
-
-More details on my [Linkedin](https://linkedin.com/in/{{ site.footer-links.linkedin }}) profile.
+This blog is about 15 years old and has been mostly quiet. I'm rebuilding it with a clearer purpose — to go deeper on the technology I work with and care about, and document the learning along the way.
 
 ## Technology
 
-My background is mainly in Microsoft technologies however I'll use whatever tools I have at my disposal to ensure a good outcome.
+I started as a developer, working in the Microsoft .NET ecosystem from version 1.0, building web and Windows applications across the full stack — which meant you had to understand what was happening at every layer, not just the framework you were working in. That foundation has mattered more than anything else since.
 
-I have developed Web and Windows applications on the .NET Frameowrk since version 1.0 and have watched the platform mature and Microsoft evolve into the world class platform it is today.
+From there I moved across the broader Microsoft ecosystem — SharePoint, Dynamics CRM, Active Directory, Azure — designing and implementing solutions across identity, collaboration, and business applications. Enough variety to develop a real appreciation for how enterprise environments actually fit together.
 
-I've had plenty of experience designing and implementing solutions on various business application platforms like SharePoint and Dynamics CRM, as well as Identity Management platforms like Active Directory and Forefront.  
+At Google Cloud I got hands-on with public cloud architecture at scale — compute, networking and storage at scale and the early days of the AI movement. That's where my thinking about cloud-native design patterns matured, and where I started to properly understand the gap between what cloud promises and what most organisations are actually ready to adopt.
 
-The cloud provides many opportunities for developers and architects to position and deliver solutions.  My focus has mainly been on Azure however I have also designed and deployed solutions on AWS. 
+HashiCorp deepened the infrastructure layer considerably. Terraform, Vault, and the wider platform covering infrastructure-as-code, secrets management, and zero-trust networking. The DevSecOps space forces you to think about the full lifecycle — provisioning, security, compliance, drift — and how all of it connects.
+
+My current interest is AI, and specifically the infrastructure and operational foundations that determine whether organisations actually get value from it. I watched the cloud adoption cycle play out — the rush to deploy before the foundations were solid, and the cost problems that followed. AI is heading down the same path for a lot of organisations. That's the lens I'm bringing to it here.
+
+## Employment
+
+Currently Director of Customer Lifecycle Management at [HashiCorp](https://www.hashicorp.com) (now part of IBM), working across Asia Pacific and Japan. Before that, Partner Engineering and Professional Services at HashiCorp, and before that building the Partner Engineering function at Google Cloud across Australia and New Zealand.
+
+More on my [LinkedIn](https://linkedin.com/in/{{ site.footer-links.linkedin }}).
 
 ## Personal
 
-I'm from Sydney Australia, more specifically from [Maroubra](https://www.google.com.au/maps/place/Maroubra+NSW/data=!4m2!3m1!1s0x6b12b3ce176e4569:0x5017d681632c000) in Sydney's Eastern Suburbs.
-
-I've got 2 beautiful girls, Emily and Lucy who keep me pretty busy but when I can find the time I enjoy surfing, golfing and playing the guitar.
-
-I'm also a mad [South Sydney Rabbitohs](https://www.rabbitohs.com.au) fan and can't wait to see if the boys can go back to back in 2015.
-
-## This blog
-
-I forked [Jekyll-Now](https://github.com/barryclark/jekyll-now) from Barry Clark to use as a base for this blog.  I've kind of customised the layout but it still needs a fair bit of work.  The source is up on [GitHub](https://github.com/sbedford/sbedford.github.io).
+I'm from [Maroubra](https://www.google.com.au/maps/place/Maroubra+NSW/data=!4m2!3m1!1s0x6b12b3ce176e4569:0x5017d681632c000) in Sydney's eastern suburbs. Happily married to Megan with two teenage daughters, Emily and Lucy. I play a lot of golf. Get to the beach when  I can.  South Sydney Rabbitohs fan.
