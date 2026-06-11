@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-My name is Sean Bedford and I am a Solutions Specialist at [Empired](http://www.empired.com).  
+My name is Sean Bedford and I am a Solutions Specialist at [Empired](https://www.empired.com).  
 
 Who knows where this blog will end up - I plan to blog about interesting solutions to problems I have encountered and give my opinion on technology issues but we'll see where we end up.
 
 ## Employment
 
-I've just joined [Empired](http://www.empired.com) (April 2015), a Microsoft Gold Partner providing specialised consulting services to clients across Australia and New Zeland.  Empired offers services across Business Productivity Soltions (Dynamics CRM, AX, NAV), Collaboration and Content (SharePoint, Sitecore, etc) as well as IT managed services and application development and integration. 
+I've just joined [Empired](https://www.empired.com) (April 2015), a Microsoft Gold Partner providing specialised consulting services to clients across Australia and New Zeland.  Empired offers services across Business Productivity Soltions (Dynamics CRM, AX, NAV), Collaboration and Content (SharePoint, Sitecore, etc) as well as IT managed services and application development and integration. 
 
 I work in the Dynamics team as a Solution Specialist working with prospective and current customers to align business and technology decisions in the Dynamics and wider Microsoft stack. 
 
@@ -18,9 +18,9 @@ Previously,  I worked with Ajilon as a Solution Architect and Technical Team Lea
 
 I have also done my fair share of Pre-Sales activities which is always a challenge and very enjoyable.
 
-Even further back I worked for [Asciano](http://www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
+Even further back I worked for [Asciano](https://www.asciano.com.au) as a System Architect and Technical Lead on the .NET development team.  I was responsible for designing solutions and leading the development team to deliver solutions for this ports and logistics businesses.
 
-More details on my [Linkedin](http://linkedin.com/in/{{ site.footer-links.linkedin }}) profile.
+More details on my [Linkedin](https://linkedin.com/in/{{ site.footer-links.linkedin }}) profile.
 
 ## Technology
 
@@ -38,7 +38,7 @@ I'm from Sydney Australia, more specifically from [Maroubra](https://www.google.
 
 I've got 2 beautiful girls, Emily and Lucy who keep me pretty busy but when I can find the time I enjoy surfing, golfing and playing the guitar.
 
-I'm also a mad [South Sydney Rabbitohs](http://www.rabbitohs.com.au) fan and can't wait to see if the boys can go back to back in 2015.
+I'm also a mad [South Sydney Rabbitohs](https://www.rabbitohs.com.au) fan and can't wait to see if the boys can go back to back in 2015.
 
 ## This blog
 

@@ -6,9 +6,9 @@ byline: First post in the ADX Studio series giving an overview of the product an
 
 The first post in my series on ADX Studio is going to give an overview of what the solution sets out to achieve, how it works and what you need to do to deploy a portal.
 
-__Disclaimer__: Pretty much everything I'm saying here has been said better on the [ADX Studio Community Portal](http://community.adxstudio.com/products/adxstudio-portals/).  Go check it out if I'm not making sense.
+__Disclaimer__: Pretty much everything I'm saying here has been said better on the [ADX Studio Community Portal](https://community.adxstudio.com/products/adxstudio-portals/).  Go check it out if I'm not making sense.
 
-So, ripped off straight from their [website](http://www.adxstudio.com/adxstudio-portals/), ADX Studio provides Dynamics CRM integrated portals which aim to transform Dynamics CRM into a powerful application platform.
+So, ripped off straight from their [website](https://www.adxstudio.com/adxstudio-portals/), ADX Studio provides Dynamics CRM integrated portals which aim to transform Dynamics CRM into a powerful application platform.
 
 Thats cool, but really what they're saying is that ADX provides a web site which sits in front of Dynamics CRM and,
 
@@ -64,7 +64,7 @@ A rewrite template basically tells ADX to go and look for the template content i
 
 ### Web Template  	
 
-A Web Template is [Liquid template](http://liquidmarkup.org/) where the rendering logic is contained within the CRM entities themselves, rather than within an ASP.NET web application.  Liquid is a lightweight, open-source rendering engine which allows designers to embed small scripts to layout the content of a page.
+A Web Template is [Liquid template](https://liquidmarkup.org/) where the rendering logic is contained within the CRM entities themselves, rather than within an ASP.NET web application.  Liquid is a lightweight, open-source rendering engine which allows designers to embed small scripts to layout the content of a page.
 
 {% gist 5b9e9c38e2f5d313b5e3 LiquidTemplate.html %}
 

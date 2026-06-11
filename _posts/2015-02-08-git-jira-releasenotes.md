@@ -8,7 +8,7 @@ My project needs release notes containing information like the Jira tickets reso
 
 We use a number of products and services to build the applications in the solution:
 
-* [GitHub](www.github.com) for source control,
+* [GitHub](https://www.github.com) for source control,
 * [Jira](https://www.atlassian.com/software/jira) for bug and work item tracking,
 * [TeamCity](https://www.jetbrains.com/teamcity/) for build automation, issuing version numbers and source code tagging, and 
 * [OctopusDeploy](https://octopusdeploy.com) for deployment automation.

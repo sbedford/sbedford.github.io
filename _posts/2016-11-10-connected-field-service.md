@@ -6,7 +6,7 @@ byline: Lets look under the hood.
 
 # Introduction
 
-I was lucky enough to present recently at [Dynamics Day](http://www.empired.com/Our-Insight/Dynamics-Day-2016/) on a couple of topics including the [Dynamics 365 applications for Field and Project Service](http://www.empired.com/Our-Insight/Dynamics-Day-2016/enhance-your-productivity-with-dynamics-365-project-services-and-field-services/) and a session on the [Internet of Things and CRM using the all-new Connected Field Service solution](http://www.empired.com/Our-Insight/Dynamics-Day-2016/Internet-of-Things-and-CRM/).  
+I was lucky enough to present recently at [Dynamics Day](https://www.empired.com/Our-Insight/Dynamics-Day-2016/) on a couple of topics including the [Dynamics 365 applications for Field and Project Service](https://www.empired.com/Our-Insight/Dynamics-Day-2016/enhance-your-productivity-with-dynamics-365-project-services-and-field-services/) and a session on the [Internet of Things and CRM using the all-new Connected Field Service solution](https://www.empired.com/Our-Insight/Dynamics-Day-2016/Internet-of-Things-and-CRM/).  
 
 As this was a topic which seemed to really resonate with our attendees, I decided to put a few more thoughts down here, dig into the details and attempt to answer the questions posed above!
 

@@ -12,7 +12,7 @@ It's even worse when you include though having to manually execute database scri
 
 The first solution which people usually move to is automating the deployment through Powershell scripts which was also the first step we took, however having to manually run the scripts along with ensuring that the databases were updated with the latest versions of the stored procedures and functions was too tedious.
 
-Complete deployment automation was the goal - we wanted a totally hands free process which we could reliably and repeatably run in all environments.  As as we were already using the awesome [Octopus Deploy](http://www.octopusdeploy.com) to deploy the other applications in our solution it was the logical choice to drive this.
+Complete deployment automation was the goal - we wanted a totally hands free process which we could reliably and repeatably run in all environments.  As as we were already using the awesome [Octopus Deploy](https://www.octopusdeploy.com) to deploy the other applications in our solution it was the logical choice to drive this.
 
 ### Packaging
 
