@@ -2,7 +2,7 @@
 layout: post
 title: Provisioning Federated User Identities in ADX Studio
 byline: Runs through how to use the invitation workflow to link Contacts and Federated Identities.
-series-name: ADX Studio
+series: ADX Studio
 ---
 
 As I've spoken about before, ADX Studio supports a number of different [authentication](/adxstudio-part-2) options however when your portal is setup to use federated identites (OAUTH, ACS, etc) provisioning can be a bit confusing.

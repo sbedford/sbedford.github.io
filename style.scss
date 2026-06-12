@@ -359,6 +359,39 @@ nav {
       border: 1px solid $borderGray;
       box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.75rem 0;
+      font-family: $sans;
+      font-size: 0.93rem;
+      border: 1px solid $borderGray;
+      border-top: 3px solid $teal;
+      border-radius: 0 0 8px 8px;
+      overflow: hidden;
+
+      th {
+        background: $lightGray;
+        color: $darkerGray;
+        font-weight: 700;
+        text-align: left;
+        padding: 0.65rem 1rem;
+        border-bottom: 2px solid $teal;
+        letter-spacing: 0.02em;
+      }
+
+      td {
+        padding: 0.6rem 1rem;
+        border-bottom: 1px solid $borderGray;
+        color: $darkGray;
+        vertical-align: top;
+      }
+
+      tr:last-child td { border-bottom: none; }
+
+      tr:nth-child(even) td { background: $lightGray; }
+    }
   }
 
   .comments {

@@ -1,2 +1,4 @@
+- name: Building an Agentic Golf Caddie
+  blurb: Getting back into application development (and learning some AI development) to re-connect with technology
 - name: ADX Studio
   blurb: A series of posts on using ADX Studio to deliver a portal for Dynamics CRM, covering setup, authentication, and user provisioning.

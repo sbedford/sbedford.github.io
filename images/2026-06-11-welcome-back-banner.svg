@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" width="820" height="280">
+  <defs>
+    <pattern id="gridB" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.9" fill="#1a2e42"/>
+    </pattern>
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d2035"/>
+      <stop offset="100%" stop-color="#071525"/>
+    </linearGradient>
+    <radialGradient id="ballGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1a3a28" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a1e10" stop-opacity="0.08"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="280" fill="#060e18"/>
+  <rect width="820" height="280" fill="url(#gridB)" opacity="0.9"/>
+
+  <!-- Top teal bar -->
+  <rect width="820" height="3" fill="#0d9488"/>
+
+  <!-- === GOLF BALL WATERMARK (right side) === -->
+  <!-- Large faded ball circle -->
+  <circle cx="720" cy="162" r="80" fill="url(#ballGrad)"
+          stroke="#163028" stroke-width="1.5" opacity="0.6"/>
+  <!-- Dimple pattern (subtle) -->
+  <circle cx="700" cy="138" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="720" cy="132" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="740" cy="138" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="710" cy="150" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="730" cy="150" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="700" cy="162" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="720" cy="162" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="740" cy="162" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="710" cy="174" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="730" cy="174" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="700" cy="186" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="720" cy="186" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+  <circle cx="740" cy="186" r="3.5" fill="none" stroke="#163028" stroke-width="1" opacity="0.5"/>
+
+  <!-- === LEFT PANEL TEXT === -->
+
+  <!-- Eyebrow -->
+  <text x="25" y="42"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="9.5" font-weight="700" letter-spacing="3" fill="#0d9488">RE-LEARNING IN PUBLIC</text>
+
+  <!-- Heading -->
+  <text x="25" y="80"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="25" font-weight="700" fill="#f1f5f9">Agentic</text>
+  <text x="25" y="110"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="25" font-weight="700" fill="#0d9488">Golf Caddy</text>
+
+  <!-- Divider -->
+  <line x1="25" y1="124" x2="340" y2="124" stroke="#1a3350" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="25" y="144"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="10.5" fill="#3d5a72">Designing an AI agent system to</text>
+  <text x="25" y="160"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="10.5" fill="#3d5a72">solve real problems on the course.</text>
+  <text x="25" y="182"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="10.5" fill="#3d5a72">One component at a time.</text>
+
+  <!-- === HUB AND SPOKE === -->
+  <!-- Hub center: (480, 140) -->
+  <!-- Outer nodes (radius 95):                                     -->
+  <!--   270° top:         (480, 45)                                -->
+  <!--   342° upper-right: (566, 111)   cos342=0.951 sin342=-0.309  -->
+  <!--   54°  lower-right: (534, 217)   cos54=0.588  sin54=0.809   -->
+  <!--   126° lower-left:  (426, 217)   cos126=-0.588 sin126=0.809 -->
+  <!--   198° upper-left:  (394, 111)   cos198=-0.951 sin198=-0.309 -->
+
+  <!-- Dashed orbit ring -->
+  <circle cx="480" cy="140" r="118"
+          fill="none" stroke="#0d9488" stroke-width="1"
+          stroke-dasharray="4 7" opacity="0.2"/>
+
+  <!-- Spoke lines (center → outer nodes) -->
+  <line x1="480" y1="140" x2="480" y2="45"
+        stroke="#0d9488" stroke-width="1.2" opacity="0.4"/>
+  <line x1="480" y1="140" x2="566" y2="111"
+        stroke="#0d9488" stroke-width="1.2" opacity="0.4"/>
+  <line x1="480" y1="140" x2="534" y2="217"
+        stroke="#0d9488" stroke-width="1.2" opacity="0.4"/>
+  <line x1="480" y1="140" x2="426" y2="217"
+        stroke="#0d9488" stroke-width="1.2" opacity="0.4"/>
+  <line x1="480" y1="140" x2="394" y2="111"
+        stroke="#0d9488" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- === CENTER NODE === -->
+  <!-- Outer glow -->
+  <circle cx="480" cy="140" r="60" fill="#0d9488" opacity="0.06"/>
+  <!-- Main circle -->
+  <circle cx="480" cy="140" r="48" fill="url(#centerGrad)"
+          stroke="#0d9488" stroke-width="2"/>
+  <!-- Inner ring detail -->
+  <circle cx="480" cy="140" r="42" fill="none"
+          stroke="#0d9488" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="480" y="131" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="11" font-weight="700" fill="#e2e8f0">Golf Caddy</text>
+  <text x="480" y="146" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="11" font-weight="700" fill="#e2e8f0">Agent</text>
+  <text x="480" y="162" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" letter-spacing="2" fill="#0d9488">LLM · TOOLS · MEMORY</text>
+
+  <!-- === OUTER NODES === -->
+
+  <!-- Node halos -->
+  <circle cx="480" cy="45"  r="34" fill="#0d9488" opacity="0.06"/>
+  <circle cx="566" cy="111" r="34" fill="#0d9488" opacity="0.06"/>
+  <circle cx="534" cy="217" r="34" fill="#0d9488" opacity="0.06"/>
+  <circle cx="426" cy="217" r="34" fill="#0d9488" opacity="0.06"/>
+  <circle cx="394" cy="111" r="34" fill="#0d9488" opacity="0.06"/>
+
+  <!-- Node circles -->
+  <circle cx="480" cy="45"  r="26" fill="#0a1c2e" stroke="#0d9488" stroke-width="1.5"/>
+  <circle cx="566" cy="111" r="26" fill="#0a1c2e" stroke="#0d9488" stroke-width="1.5"/>
+  <circle cx="534" cy="217" r="26" fill="#0a1c2e" stroke="#0d9488" stroke-width="1.5"/>
+  <circle cx="426" cy="217" r="26" fill="#0a1c2e" stroke="#0d9488" stroke-width="1.5"/>
+  <circle cx="394" cy="111" r="26" fill="#0a1c2e" stroke="#0d9488" stroke-width="1.5"/>
+
+  <!-- Node labels — COURSE INTEL (top) -->
+  <text x="480" y="41" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">COURSE</text>
+  <text x="480" y="52" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">INTEL</text>
+
+  <!-- CONDITIONS (upper right) -->
+  <text x="566" y="107" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">WIND &amp;</text>
+  <text x="566" y="118" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">CONDITIONS</text>
+
+  <!-- CLUB DATA (lower right) -->
+  <text x="534" y="213" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">CLUB</text>
+  <text x="534" y="224" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">SELECTION</text>
+
+  <!-- LIE &amp; RISK (lower left) -->
+  <text x="426" y="213" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">LIE &amp;</text>
+  <text x="426" y="224" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">RISK</text>
+
+  <!-- STRATEGY (upper left) -->
+  <text x="394" y="107" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">SHOT</text>
+  <text x="394" y="118" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="7.5" font-weight="700" fill="#0d9488">STRATEGY</text>
+
+  <!-- Bottom tagline -->
+  <text x="410" y="264" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+        font-size="10" fill="#1e3a50" letter-spacing="0.5">
+    Perceive · Reason · Plan · Act · Reflect — the full agent loop applied to a real problem
+  </text>
+</svg>

@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1000 760" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4b5563"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="760" fill="#fafaf9"/>
+
+  <text x="500" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#1c1917">Golf Caddie — High Level Architecture</text>
+
+  <!-- Mobile App -->
+  <rect x="370" y="70" width="260" height="70" rx="10" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+  <text x="500" y="98" text-anchor="middle" font-size="16" font-weight="600" fill="#0f766e">Mobile App (PWA)</text>
+  <text x="500" y="120" text-anchor="middle" font-size="12" fill="#57534e">Pre-round caddie · in-round capture</text>
+
+  <line x1="500" y1="140" x2="500" y2="175" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- API Layer -->
+  <rect x="350" y="180" width="300" height="70" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="500" y="208" text-anchor="middle" font-size="16" font-weight="600" fill="#1d4ed8">API Layer</text>
+  <text x="500" y="230" text-anchor="middle" font-size="12" fill="#57534e">Thin — request handling, no business logic</text>
+
+  <line x1="500" y1="250" x2="500" y2="285" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Agent Layer -->
+  <rect x="300" y="290" width="400" height="90" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+  <text x="500" y="320" text-anchor="middle" font-size="17" font-weight="700" fill="#c2410c">Agent</text>
+  <text x="500" y="343" text-anchor="middle" font-size="12" fill="#57534e">Reasons across rounds · decides which tools to call</text>
+  <text x="500" y="362" text-anchor="middle" font-size="12" fill="#57534e">and in what order · builds the game plan / insight</text>
+
+  <!-- Prompt architecture annotation -->
+  <rect x="40" y="290" width="220" height="90" rx="8" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="150" y="312" text-anchor="middle" font-size="12" font-weight="700" fill="#44403c">Every call =</text>
+  <text x="150" y="332" text-anchor="middle" font-size="11" fill="#57534e">System prompt (golf reasoning)</text>
+  <text x="150" y="349" text-anchor="middle" font-size="11" fill="#57534e">+ Context block (game model)</text>
+  <text x="150" y="366" text-anchor="middle" font-size="11" fill="#57534e">+ User message</text>
+  <line x1="260" y1="335" x2="298" y2="335" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+
+  <!-- Arrow down to tools -->
+  <line x1="500" y1="380" x2="500" y2="415" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="510" y="402" font-size="12" fill="#78716c">tool calls</text>
+
+  <!-- Tools section label -->
+  <text x="500" y="440" text-anchor="middle" font-size="15" font-weight="700" fill="#1c1917">Agent Tools (current thinking — start with four)</text>
+
+  <!-- Tool boxes -->
+  <rect x="60" y="460" width="210" height="80" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="165" y="485" text-anchor="middle" font-size="13" font-weight="700" fill="#7c3aed">get_round_history</text>
+  <text x="165" y="505" text-anchor="middle" font-size="11" fill="#57534e">Query past rounds with</text>
+  <text x="165" y="520" text-anchor="middle" font-size="11" fill="#57534e">optional filters</text>
+
+  <rect x="290" y="460" width="210" height="80" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="395" y="485" text-anchor="middle" font-size="13" font-weight="700" fill="#7c3aed">get_hole_stats</text>
+  <text x="395" y="505" text-anchor="middle" font-size="11" fill="#57534e">Historical performance on</text>
+  <text x="395" y="520" text-anchor="middle" font-size="11" fill="#57534e">a specific hole</text>
+
+  <rect x="520" y="460" width="210" height="80" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="625" y="485" text-anchor="middle" font-size="13" font-weight="700" fill="#7c3aed">get_course_info</text>
+  <text x="625" y="505" text-anchor="middle" font-size="11" fill="#57534e">Par, stroke index, distances</text>
+  <text x="625" y="520" text-anchor="middle" font-size="11" fill="#57534e">— external course data</text>
+
+  <rect x="750" y="460" width="210" height="80" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="855" y="485" text-anchor="middle" font-size="13" font-weight="700" fill="#7c3aed">save_round</text>
+  <text x="855" y="505" text-anchor="middle" font-size="11" fill="#57534e">Write a new round /</text>
+  <text x="855" y="520" text-anchor="middle" font-size="11" fill="#57534e">hole-by-hole data</text>
+
+  <!-- connectors from agent to tools -->
+  <line x1="400" y1="380" x2="165" y2="455" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="460" y1="380" x2="395" y2="455" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="540" y1="380" x2="625" y2="455" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="600" y1="380" x2="855" y2="455" stroke="#a8a29e" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Arrow down to data/external -->
+  <line x1="165" y1="540" x2="165" y2="575" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="395" y1="540" x2="240" y2="575" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="625" y1="540" x2="720" y2="575" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="855" y1="540" x2="855" y2="575" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Data store -->
+  <rect x="60" y="580" width="440" height="100" rx="10" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+  <text x="280" y="608" text-anchor="middle" font-size="15" font-weight="700" fill="#047857">Local Data Store</text>
+  <text x="280" y="632" text-anchor="middle" font-size="12" fill="#57534e">Rounds · Holes · Courses</text>
+  <text x="280" y="652" text-anchor="middle" font-size="12" fill="#57534e">The persistent "game model" — player</text>
+  <text x="280" y="668" text-anchor="middle" font-size="12" fill="#57534e">tendencies, handicap trend, history</text>
+
+  <!-- External services -->
+  <rect x="560" y="580" width="400" height="100" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="760" y="608" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">External Services</text>
+  <text x="760" y="632" text-anchor="middle" font-size="12" fill="#57534e">Course data API · Weather API</text>
+  <text x="760" y="652" text-anchor="middle" font-size="12" fill="#57534e">Free-tier where possible — no</text>
+  <text x="760" y="668" text-anchor="middle" font-size="12" fill="#57534e">player data leaves local store</text>
+
+  <!-- Footer note -->
+  <text x="500" y="730" text-anchor="middle" font-size="12" fill="#a8a29e">Local-first · agent decides tool calls and order · context block grows richer over time</text>
+</svg>

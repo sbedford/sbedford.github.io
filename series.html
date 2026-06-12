@@ -7,7 +7,7 @@ title: Series
   <h2 class="series-section__heading">All Series</h2>
   <div class="series-grid">
     {% for series_meta in site.data.series %}
-      {% assign series_posts = site.posts | where: 'series-name', series_meta.name | sort: 'date' %}
+      {% assign series_posts = site.posts | where: 'series', series_meta.name | sort: 'date' %}
       <div class="series-card">
         <div class="series-card__label">Series &middot; {{ series_posts.size }} posts</div>
         <h2 class="series-card__title">{{ series_meta.name }}</h2>

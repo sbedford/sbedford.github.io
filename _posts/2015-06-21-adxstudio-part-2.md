@@ -2,7 +2,7 @@
 layout: post
 title: ADX Studio Authentication and Authorization
 byline: Part 2 in my series on ADX going over security within the portal and back into Dynamics CRM
-series-name: ADX Studio
+series: ADX Studio
 ---
 
 Security is a key consideration when designing your ADX Studio portal.  

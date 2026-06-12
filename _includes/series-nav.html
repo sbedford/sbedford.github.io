@@ -1,5 +1,5 @@
-{% if page.series-name %}
-  {% assign series_posts = site.posts | where: 'series-name', page.series-name | sort: 'date' %}
+{% if page.series %}
+  {% assign series_posts = site.posts | where: 'series', page.series | sort: 'date' %}
   {% assign post_count = series_posts | size %}
   {% assign current_index = 1 %}
   {% for post in series_posts %}
@@ -7,7 +7,7 @@
   {% endfor %}
   <div class="series-nav">
     <div class="series-nav__label">Series &middot; Part {{ current_index }} of {{ post_count }}</div>
-    <div class="series-nav__title">{{ page.series-name }}</div>
+    <div class="series-nav__title">{{ page.series }}</div>
     <ol class="series-nav__posts">
       {% for post in series_posts %}
         <li class="series-nav__post{% if post.url == page.url %} series-nav__post--current{% endif %}">
