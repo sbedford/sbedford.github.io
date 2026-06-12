@@ -547,5 +547,200 @@ pre code {
   }
 }
 
+// Series navigation (inline post panel)
+
+.series-nav {
+  background: $lightGray;
+  border-left: 4px solid $teal;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0 2rem;
+
+  &__label {
+    font-family: $sans;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $teal;
+    margin-bottom: 0.3rem;
+  }
+
+  &__title {
+    font-family: $serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $darkerGray;
+    margin: 0 0 0.75rem;
+  }
+
+  &__posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: series-nav-counter;
+  }
+
+  &__post {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: $sans;
+    font-size: 0.88rem;
+    counter-increment: series-nav-counter;
+
+    &::before {
+      content: counter(series-nav-counter);
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: $midGray;
+      min-width: 1rem;
+      text-align: right;
+    }
+
+    a {
+      color: $darkGray;
+      text-decoration: none;
+      &:hover { color: $teal; text-decoration: none; }
+    }
+
+    &--current {
+      background: rgba(13, 148, 136, 0.1);
+      font-weight: 600;
+      color: $teal;
+
+      &::before { color: $teal; }
+    }
+  }
+}
+
+// Series page
+
+.series-section {
+  &__heading {
+    font-family: $sans;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $midGray;
+    margin: 0 0 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid $borderGray;
+  }
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.series-card {
+  background: $white;
+  border: 1px solid $borderGray;
+  border-top: 4px solid $teal;
+  border-radius: 0 0 10px 10px;
+  padding: 1.75rem 1.75rem 1.5rem;
+  box-shadow: 0 4px 24px rgba(13, 148, 136, 0.09);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(13, 148, 136, 0.15);
+  }
+
+  &__label {
+    font-family: $sans;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $teal;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    font-family: $serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem;
+    line-height: 1.25;
+    color: $darkerGray;
+  }
+
+  &__blurb {
+    color: $gray;
+    font-size: 0.97rem;
+    line-height: 1.65;
+    margin: 0 0 1.25rem;
+  }
+
+  &__posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid $borderGray;
+    padding-top: 0.75rem;
+    counter-reset: series-counter;
+  }
+
+  &__post {
+    border-bottom: 1px solid $borderGray;
+    counter-increment: series-counter;
+
+    &:last-child { border-bottom: none; }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      padding: 0.5rem 0.25rem;
+      color: $darkGray;
+      font-family: $sans;
+      font-size: 0.88rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.15s ease, padding-left 0.15s ease;
+
+      &::before {
+        content: counter(series-counter);
+        flex-shrink: 0;
+        width: 1.4rem;
+        height: 1.4rem;
+        background: $lightGray;
+        border-radius: 50%;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: $midGray;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.15s ease, color 0.15s ease;
+      }
+
+      &:hover {
+        color: $teal;
+        padding-left: 0.5rem;
+        text-decoration: none;
+
+        &::before {
+          background: $tealLight;
+          color: $teal;
+        }
+      }
+    }
+  }
+}
+
 @import "highlights";
 @import "svg-icons";

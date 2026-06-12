@@ -9,6 +9,8 @@ layout: default
     <span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
   </div>
 
+  {% include series-nav.html %}
+
   {% if page.byline %}
   <blockquote>{{ page.byline }}</blockquote>
   {% endif %}

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Series
+---
+
+<section class="series-section">
+  <h2 class="series-section__heading">All Series</h2>
+  <div class="series-grid">
+    {% for series_meta in site.data.series %}
+      {% assign series_posts = site.posts | where: 'series-name', series_meta.name | sort: 'date' %}
+      <div class="series-card">
+        <div class="series-card__label">Series &middot; {{ series_posts.size }} posts</div>
+        <h2 class="series-card__title">{{ series_meta.name }}</h2>
+        {% if series_meta.blurb %}
+          <p class="series-card__blurb">{{ series_meta.blurb }}</p>
+        {% endif %}
+        <ol class="series-card__posts">
+          {% for post in series_posts %}
+            <li class="series-card__post">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+  </div>
+</section>

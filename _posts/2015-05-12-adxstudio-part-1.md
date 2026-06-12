@@ -2,6 +2,7 @@
 layout: post
 title: ADX Studio Series Overview
 byline: First post in the ADX Studio series giving an overview of the product and the key parts of the solution.
+series-name: ADX Studio
 ---
 
 The first post in my series on ADX Studio is going to give an overview of what the solution sets out to achieve, how it works and what you need to do to deploy a portal.
