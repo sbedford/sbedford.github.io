@@ -32,8 +32,6 @@ I track a lot of data on my performance each week and track trends and statistic
 
 However, this is looking at the event after its happened when what I would really love is real-time guidance mid-round.  Consistently hitting it into trouble on a particular hole? Advise me to club down short of the trouble. Consistently miss short on an approach shot early in my round? Remind me to take an extra club.
 
-![The Agentic Golf Caddie](/images/2026-06-11-welcome-back-banner.svg "The Agentic Golf Caddie")
-
 So this is the problem we're going to try and solve - and we'll need to solve a bunch of problems along the way with respect to data modelling, model development, overall application architecture which is exactly what I need to get to grips with AI in a real-world scenario.
 
 # The Thesis

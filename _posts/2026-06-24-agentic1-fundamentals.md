@@ -22,11 +22,7 @@ You need to build close to the metal first — understand the trade-offs and fin
 
 The frameworks come later, once you know what they're actually doing for you.  
 
-They exist to accelerate development cycles.
-
-With that principle in mind, I'm building the Agentic Golf Caddy against the raw Anthropic SDK.
-
-Now, the [Anthropic GoLang SDK](https://github.com/anthropics/anthropic-sdk-go) is basically a strongly typed wrapper around the Anthropic API — requests, responses, and action verbs. 
+With that principle in mind, I'm building the Agentic Golf Caddy against the raw [Anthropic Go SDK](https://github.com/anthropics/anthropic-sdk-go) which is basically a strongly typed wrapper around the Anthropic API — requests, responses, and action verbs. 
 
 Using a more full featured AI framework like a LangChain or similar would obviously provide a lot more higher level abstractions around the conceptts we'll need to manage - memory, agent loops, tooling, etc.  
 
@@ -70,6 +66,7 @@ Agentic loops, RAG and tool calls all sound so exotic, but in reality
 * Define your agent persona and objective — a big string
 * Manage your context and memory — strings prepended before the request
 * Access a system through a tool — parse a string and go back to step 1
+* Need a structured response to pass to another system - parse some more strings
 
 What this means in practice is that the patterns for building reliably on top of these systems have to shift. Anthropic's own [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) is mandatory reading if you want to go deeper.
 
