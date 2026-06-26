@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start with the Fundamentals
-featured: true
+featured: false
 banner: /images/2026-06-24-agentic1-fundamentals-banner.svg
 series: Building an Agentic Golf Caddie
 ---

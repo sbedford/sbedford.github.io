@@ -15,9 +15,11 @@ layout: default
 
   {% include series-nav.html %}
 
-  {% if page.byline %}
-  <blockquote>{{ page.byline }}</blockquote>
-  {% endif %}
+  {% unless page.series %}
+    {% if page.byline %}
+      <blockquote>{{ page.byline }}</blockquote>
+    {% endif %}
+  {% endunless %}
 
   <div class="entry">
     {{ content }}
