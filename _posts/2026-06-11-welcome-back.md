@@ -10,7 +10,7 @@ It's been a while since my last post...whats 9 years between friends hey?
 
 A lot has happened over that time - I left consulting, joined Google, became a manager, left Google, joined HashiCorp, moved from supporting Australia to building a team across Asia Pacific and Japan...and thats just the on the professional front.
 
-At heart, I'm still building.  That's what I do, but the focus has shifted. 
+I'm still building, but the focus has shifted. 
 
 I've gone from building systems and applications to building teams, building technical sales strategies, building customer retention strategies but you know what? 
 
