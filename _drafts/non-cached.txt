@@ -1,0 +1,242 @@
+2026/07/03 15:48:56 Starting Agent
+2026/07/03 15:48:56 Initialised Round 2026-07-03 15:48:56.07323065 +1000 AEST m=+0.030035944
+2026/07/03 15:48:56 Playing Hole 1 - Par 4
+2026/07/03 15:48:56 Shot 1
+2026/07/03 15:48:56 Received request:  Sean Bedford is playing shot 1 on Hole 1 at St Michaels Golf Course. Standing on the tee 378m from the pin to a front_centre pin. Provide a strategy
+2026/07/03 15:48:56 Context block:
+ ## Player ProfileName: Sean BedfordPlayer Id: 1
+## Current Round
+Course Id: 1
+Tees: white
+Daily Handicap: 8
+Competition Type: stableford
+Holes Played: 1
+Points: 0
+Points Behind: 0
+## Available Clubs:
+Format: C:Club RC:Reliable Carry AC:Average Carry D:Dispersion
+C:3_hybrid RC: 200 D: 20m(left)
+C:3i RC: 190 D: 20m(left)
+C:4i RC: 180 D: 20m(left)
+C:5i RC: 170 D: 20m(left)
+C:6i RC: 160 D: 20m(left)
+C:7i RC: 150 D: 20m(left)
+C:8i RC: 140 D: 20m(left)
+C:9i RC: 130 D: 20m(left)
+C:driver RC: 220 D: 20m(left)
+C:gw RC: 100 D: 20m(left)
+C:pw RC: 115 D: 20m(left)
+C:sw RC: 85 D: 20m(left)
+
+2026/07/03 15:48:58 Input Tokens:  2855
+2026/07/03 15:48:58 Output Tokens:  214
+2026/07/03 15:48:58 Cache Create Tokens:  0
+2026/07/03 15:48:58 Cache Read Tokens:  0
+2026/07/03 15:48:58 Calling tool [ get_hole_layout ]
+2026/07/03 15:48:58 Got response [ {"par":4,"stroke_index":2,"distance":378,"features":[{"PoiType":"out_of_bounds","Side":"right","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"OB all down the right side"},{"PoiType":"out_of_bounds","Side":"long","ReferencePoint":"green","DistanceStart":12,"DistanceEnd":0,"Label":"Out of bounds 12m from the back edge of the green"},{"PoiType":"penalty_area","Side":"left","ReferencePoint":"green","DistanceStart":150,"DistanceEnd":0,"Label":"Hazard starts 150m from green down the left side"}]} ] from tool [ get_hole_layout ]
+2026/07/03 15:48:58 Calling tool [ get_hole_stats ]
+2026/07/03 15:48:58 Got response [ [{"PlayedAt":"2026-07-03T15:38:14.165839787+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:28:17.673461219+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:27:32.38304158+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:04:42.893496911+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-24T13:27:56.255521602+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:42:04.142531842+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:40:31.711073801+10:00","Score":{"Int64":0,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":0,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-06-23T08:56:58.939772321+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-16T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-09T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-02T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-25T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-23T00:00:00Z","Score":{"Int64":7,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-18T00:00:00Z","Score":{"Int64":7,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-11T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-21T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-07T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-28T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-07T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":0,"Valid":false},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-31T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-24T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}}] ] from tool [ get_hole_stats ]
+2026/07/03 15:49:00 Input Tokens:  5366
+2026/07/03 15:49:00 Output Tokens:  119
+2026/07/03 15:49:00 Cache Create Tokens:  0
+2026/07/03 15:49:00 Cache Read Tokens:  0
+2026/07/03 15:49:00 Agent Response [{
+  "advice": "Driver to left side, avoiding OB right and hazard left of green. Leaves ~160m approach.",
+  "club": "driver",
+  "reasoning": "Stroke index 2 demands par. Driver reaches 220m reliable carry; left-side placement avoids OB right and hazard. History shows 71% par-or-better despite fairway misses—accuracy matters less than staying in play. Left miss lands in playable rough.",
+  "confidence": "82%"
+}]
+2026/07/03 15:49:00 Time taken [4841]ms
+2026/07/03 15:49:00 Shot 2
+2026/07/03 15:49:00 Received request:  Sean Bedford is playing shot 2 on Hole 1 at St Michaels Golf Course. Standing in the fairway 175m from the pin to a front_centre pin. Provide a strategy
+2026/07/03 15:49:00 Context block:
+ ## Player ProfileName: Sean BedfordPlayer Id: 1
+## Current Round
+Course Id: 1
+Tees: white
+Daily Handicap: 8
+Competition Type: stableford
+Holes Played: 1
+Points: 0
+Points Behind: 0
+## Available Clubs:
+Format: C:Club RC:Reliable Carry AC:Average Carry D:Dispersion
+C:3_hybrid RC: 200 D: 20m(left)
+C:3i RC: 190 D: 20m(left)
+C:4i RC: 180 D: 20m(left)
+C:5i RC: 170 D: 20m(left)
+C:6i RC: 160 D: 20m(left)
+C:7i RC: 150 D: 20m(left)
+C:8i RC: 140 D: 20m(left)
+C:9i RC: 130 D: 20m(left)
+C:driver RC: 220 D: 20m(left)
+C:gw RC: 100 D: 20m(left)
+C:pw RC: 115 D: 20m(left)
+C:sw RC: 85 D: 20m(left)
+
+2026/07/03 15:49:03 Input Tokens:  2855
+2026/07/03 15:49:03 Output Tokens:  211
+2026/07/03 15:49:03 Cache Create Tokens:  0
+2026/07/03 15:49:03 Cache Read Tokens:  0
+2026/07/03 15:49:03 Calling tool [ get_hole_layout ]
+2026/07/03 15:49:03 Got response [ {"par":4,"stroke_index":2,"distance":378,"features":[{"PoiType":"out_of_bounds","Side":"right","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"OB all down the right side"},{"PoiType":"out_of_bounds","Side":"long","ReferencePoint":"green","DistanceStart":12,"DistanceEnd":0,"Label":"Out of bounds 12m from the back edge of the green"},{"PoiType":"penalty_area","Side":"left","ReferencePoint":"green","DistanceStart":150,"DistanceEnd":0,"Label":"Hazard starts 150m from green down the left side"}]} ] from tool [ get_hole_layout ]
+2026/07/03 15:49:03 Calling tool [ get_hole_stats ]
+2026/07/03 15:49:03 Got response [ [{"PlayedAt":"2026-07-03T15:38:14.165839787+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:28:17.673461219+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:27:32.38304158+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:04:42.893496911+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-24T13:27:56.255521602+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:42:04.142531842+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:40:31.711073801+10:00","Score":{"Int64":0,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":0,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-06-23T08:56:58.939772321+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-16T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-09T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-02T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-25T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-23T00:00:00Z","Score":{"Int64":7,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-18T00:00:00Z","Score":{"Int64":7,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-11T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-21T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-07T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-28T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-07T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":0,"Valid":false},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-31T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-24T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}}] ] from tool [ get_hole_stats ]
+2026/07/03 15:49:05 Input Tokens:  5363
+2026/07/03 15:49:05 Output Tokens:  115
+2026/07/03 15:49:05 Cache Create Tokens:  0
+2026/07/03 15:49:05 Cache Read Tokens:  0
+2026/07/03 15:49:05 Agent Response [{
+  "advice": "Target front-centre with 5i. Distance control over line—accept centre-green miss over short/long.",
+  "club": "5i",
+  "reasoning": "175m favours 5i (170m RC). Stroke index 2 demands par. OB right and hazard left eliminate extremes; front-centre pin is reachable and forgiving. Recent form shows consistent par—execute the straightforward approach.",
+  "confidence": "82%"
+}]
+2026/07/03 15:49:05 Time taken [5027]ms
+2026/07/03 15:49:05 Completing Hole
+2026/07/03 15:49:05 Playing Hole 2 - Par 2
+2026/07/03 15:49:05 Shot 1
+2026/07/03 15:49:05 Received request:  Sean Bedford is playing shot 1 on Hole 2 at St Michaels Golf Course. Standing on the tee 303m from the pin to a middle_left pin. Provide a strategy
+2026/07/03 15:49:05 Context block:
+ ## Player ProfileName: Sean BedfordPlayer Id: 1
+## Current Round
+Course Id: 1
+Tees: white
+Daily Handicap: 8
+Competition Type: stableford
+Holes Played: 2
+Points: 3
+Points Behind: -1
+## Available Clubs:
+Format: C:Club RC:Reliable Carry AC:Average Carry D:Dispersion
+C:3_hybrid RC: 200 D: 20m(left)
+C:3i RC: 190 D: 20m(left)
+C:4i RC: 180 D: 20m(left)
+C:5i RC: 170 D: 20m(left)
+C:6i RC: 160 D: 20m(left)
+C:7i RC: 150 D: 20m(left)
+C:8i RC: 140 D: 20m(left)
+C:9i RC: 130 D: 20m(left)
+C:driver RC: 220 D: 20m(left)
+C:gw RC: 100 D: 20m(left)
+C:pw RC: 115 D: 20m(left)
+C:sw RC: 85 D: 20m(left)
+
+2026/07/03 15:49:08 Input Tokens:  2855
+2026/07/03 15:49:08 Output Tokens:  214
+2026/07/03 15:49:08 Cache Create Tokens:  0
+2026/07/03 15:49:08 Cache Read Tokens:  0
+2026/07/03 15:49:08 Calling tool [ get_hole_layout ]
+2026/07/03 15:49:08 Got response [ {"par":4,"stroke_index":4,"distance":303,"features":[{"PoiType":"bailout","Side":"left","ReferencePoint":"green","DistanceStart":0,"DistanceEnd":17,"Label":"Bailout area on the left 17m short of centre"},{"PoiType":"bunker","Side":"long","ReferencePoint":"green","DistanceStart":0,"DistanceEnd":13,"Label":"Greenside bunker long 13m from middle of green"},{"PoiType":"bunker","Side":"right","ReferencePoint":"green","DistanceStart":22.5,"DistanceEnd":9.45,"Label":"Greenside bunker on the right 22.5m from the centre of the green. 13m wide"},{"PoiType":"carry","Side":"","ReferencePoint":"green","DistanceStart":165,"DistanceEnd":0,"Label":"Forced carry from the tee leaves 165 to the green"},{"PoiType":"dense_scrub","Side":"left","ReferencePoint":"green","DistanceStart":103,"DistanceEnd":0,"Label":"Heavy scrub down the left side from 103m from the green. Avoid"},{"PoiType":"out_of_bounds","Side":"right","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"OB all down the right side"}]} ] from tool [ get_hole_layout ]
+2026/07/03 15:49:08 Calling tool [ get_hole_stats ]
+2026/07/03 15:49:08 Got response [ [{"PlayedAt":"2026-07-03T15:38:14.165839787+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:28:17.673461219+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:04:42.893496911+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-24T13:27:56.255521602+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:42:04.142531842+10:00","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-16T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-09T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-02T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-25T00:00:00Z","Score":{"Int64":0,"Valid":false},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":0,"Valid":false},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-18T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-04-11T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-21T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-03-07T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":4,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-02-28T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-07T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-01-31T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-24T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}}] ] from tool [ get_hole_stats ]
+2026/07/03 15:49:11 Input Tokens:  5238
+2026/07/03 15:49:11 Output Tokens:  128
+2026/07/03 15:49:11 Cache Create Tokens:  0
+2026/07/03 15:49:11 Cache Read Tokens:  0
+2026/07/03 15:49:11 Agent Response [{
+  "advice": "Drive left to fairway. Miss pattern left but green sits right. Avoid OB right and scrub left entirely.",
+  "club": "driver",
+  "reasoning": "303m par 4, stroke index 4 (no shot). Driver carry 220m leaves ~83m to pin. Miss pattern is left; OB right eliminates right miss anyway. Dense scrub left punishes over-correction. Fairway hit rate improves scores—hit centre-left, not left edge.",
+  "confidence": "82%"
+}]
+2026/07/03 15:49:11 Time taken [5612]ms
+2026/07/03 15:49:11 Shot 2
+2026/07/03 15:49:11 Received request:  Sean Bedford is playing shot 2 on Hole 2 at St Michaels Golf Course. Standing in the fairway 131m from the pin to a middle_left pin. Provide a strategy
+2026/07/03 15:49:11 Context block:
+ ## Player ProfileName: Sean BedfordPlayer Id: 1
+## Current Round
+Course Id: 1
+Tees: white
+Daily Handicap: 8
+Competition Type: stableford
+Holes Played: 2
+Points: 3
+Points Behind: -1
+## Available Clubs:
+Format: C:Club RC:Reliable Carry AC:Average Carry D:Dispersion
+C:3_hybrid RC: 200 D: 20m(left)
+C:3i RC: 190 D: 20m(left)
+C:4i RC: 180 D: 20m(left)
+C:5i RC: 170 D: 20m(left)
+C:6i RC: 160 D: 20m(left)
+C:7i RC: 150 D: 20m(left)
+C:8i RC: 140 D: 20m(left)
+C:9i RC: 130 D: 20m(left)
+C:driver RC: 220 D: 20m(left)
+C:gw RC: 100 D: 20m(left)
+C:pw RC: 115 D: 20m(left)
+C:sw RC: 85 D: 20m(left)
+
+2026/07/03 15:49:14 Input Tokens:  2855
+2026/07/03 15:49:14 Output Tokens:  222
+2026/07/03 15:49:14 Cache Create Tokens:  0
+2026/07/03 15:49:14 Cache Read Tokens:  0
+2026/07/03 15:49:14 Calling tool [ get_hole_layout ]
+2026/07/03 15:49:14 Got response [ {"par":4,"stroke_index":4,"distance":303,"features":[{"PoiType":"bailout","Side":"left","ReferencePoint":"green","DistanceStart":0,"DistanceEnd":17,"Label":"Bailout area on the left 17m short of centre"},{"PoiType":"bunker","Side":"long","ReferencePoint":"green","DistanceStart":0,"DistanceEnd":13,"Label":"Greenside bunker long 13m from middle of green"},{"PoiType":"bunker","Side":"right","ReferencePoint":"green","DistanceStart":22.5,"DistanceEnd":9.45,"Label":"Greenside bunker on the right 22.5m from the centre of the green. 13m wide"},{"PoiType":"carry","Side":"","ReferencePoint":"green","DistanceStart":165,"DistanceEnd":0,"Label":"Forced carry from the tee leaves 165 to the green"},{"PoiType":"dense_scrub","Side":"left","ReferencePoint":"green","DistanceStart":103,"DistanceEnd":0,"Label":"Heavy scrub down the left side from 103m from the green. Avoid"},{"PoiType":"out_of_bounds","Side":"right","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"OB all down the right side"}]} ] from tool [ get_hole_layout ]
+2026/07/03 15:49:14 Calling tool [ get_hole_stats ]
+2026/07/03 15:49:14 Got response [ [{"PlayedAt":"2026-07-03T15:38:14.165839787+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:28:17.673461219+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-07-03T13:04:42.893496911+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-24T13:27:56.255521602+10:00","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:42:04.142531842+10:00","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-16T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-09T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-02T00:00:00Z","Score":{"Int64":6,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-25T00:00:00Z","Score":{"Int64":0,"Valid":false},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":0,"Valid":false},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-23T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-18T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-04-11T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-21T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-03-07T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":4,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":true,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-02-28T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-07T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-01-31T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-24T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}}] ] from tool [ get_hole_stats ]
+2026/07/03 15:49:17 Input Tokens:  5246
+2026/07/03 15:49:17 Output Tokens:  117
+2026/07/03 15:49:17 Cache Create Tokens:  0
+2026/07/03 15:49:17 Cache Read Tokens:  0
+2026/07/03 15:49:17 Agent Response [{
+  "advice": "9-iron to the fat of the green, accepting left miss over bunkers right and long.",
+  "club": "9i",
+  "reasoning": "131m from middle-left pin. 9i reliable carry 130m reaches the green safely. Sean consistently misses left; pin is middle-left, so left miss is acceptable. Bunkers guard right and long—9i eliminates both hazards while leaving two putts for par.",
+  "confidence": "88%"
+}]
+2026/07/03 15:49:17 Time taken [5712]ms
+2026/07/03 15:49:17 Completing Hole
+2026/07/03 15:49:17 Playing Hole 3 - Par 3
+2026/07/03 15:49:17 Shot 1
+2026/07/03 15:49:17 Received request:  Sean Bedford is playing shot 1 on Hole 3 at St Michaels Golf Course. Standing on the tee 166m from the pin to a back_right pin. Provide a strategy
+2026/07/03 15:49:17 Context block:
+ ## Player ProfileName: Sean BedfordPlayer Id: 1
+## Current Round
+Course Id: 1
+Tees: white
+Daily Handicap: 8
+Competition Type: stableford
+Holes Played: 3
+Points: 6
+Points Behind: -2
+## Available Clubs:
+Format: C:Club RC:Reliable Carry AC:Average Carry D:Dispersion
+C:3_hybrid RC: 200 D: 20m(left)
+C:3i RC: 190 D: 20m(left)
+C:4i RC: 180 D: 20m(left)
+C:5i RC: 170 D: 20m(left)
+C:6i RC: 160 D: 20m(left)
+C:7i RC: 150 D: 20m(left)
+C:8i RC: 140 D: 20m(left)
+C:9i RC: 130 D: 20m(left)
+C:driver RC: 220 D: 20m(left)
+C:gw RC: 100 D: 20m(left)
+C:pw RC: 115 D: 20m(left)
+C:sw RC: 85 D: 20m(left)
+
+2026/07/03 15:49:19 Input Tokens:  2855
+2026/07/03 15:49:19 Output Tokens:  195
+2026/07/03 15:49:19 Cache Create Tokens:  0
+2026/07/03 15:49:19 Cache Read Tokens:  0
+2026/07/03 15:49:19 Calling tool [ get_hole_layout ]
+2026/07/03 15:49:19 Got response [ {"par":3,"stroke_index":12,"distance":166,"features":[{"PoiType":"bailout","Side":"left","ReferencePoint":"green","DistanceStart":24,"DistanceEnd":0,"Label":"Safe landing 24m radius of the green. Prefer left"},{"PoiType":"dense_scrub","Side":"long","ReferencePoint":"green","DistanceStart":0,"DistanceEnd":0,"Label":"Dense scrub right behind the green. All downhill"},{"PoiType":"dense_scrub","Side":"left","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"Dense scrub left. Widens nearer the green"},{"PoiType":"out_of_bounds","Side":"right","ReferencePoint":"tee","DistanceStart":0,"DistanceEnd":0,"Label":"OB all down the right side"}]} ] from tool [ get_hole_layout ]
+2026/07/03 15:49:19 Calling tool [ get_hole_stats ]
+2026/07/03 15:49:19 Got response [ [{"PlayedAt":"2026-07-03T15:38:14.165839787+10:00","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-07-03T13:28:17.673461219+10:00","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-06-24T13:27:56.255521602+10:00","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-06-23T18:42:04.142531842+10:00","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-23T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-16T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-05-09T00:00:00Z","Score":{"Int64":0,"Valid":false},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":0,"Valid":false},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-05-02T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-04-25T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-04-23T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-04-18T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-04-11T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-21T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":1,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-03-07T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-02-28T00:00:00Z","Score":{"Int64":4,"Valid":true},"Points":{"Int64":1,"Valid":true},"Putts":{"Int64":3,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-02-07T00:00:00Z","Score":{"Int64":5,"Valid":true},"Points":{"Int64":0,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":false,"Valid":true}},{"PlayedAt":"2026-01-31T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":2,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}},{"PlayedAt":"2026-01-24T00:00:00Z","Score":{"Int64":3,"Valid":true},"Points":{"Int64":3,"Valid":true},"Putts":{"Int64":2,"Valid":true},"FairwayHit":{"Bool":false,"Valid":true},"Gir":{"Bool":true,"Valid":true}}] ] from tool [ get_hole_stats ]
+2026/07/03 15:49:22 Input Tokens:  5003
+2026/07/03 15:49:22 Output Tokens:  136
+2026/07/03 15:49:22 Cache Create Tokens:  0
+2026/07/03 15:49:22 Cache Read Tokens:  0
+2026/07/03 15:49:22 Agent Response [{
+  "advice": "Play left of the green into the bailout area. Avoid OB right. Accept two-putt par.",
+  "club": "7i",
+  "reasoning": "166m to back-right pin. 7i reliable carry 150m leaves ~16m short, placing him left of green into safe bailout. OB right makes precise targeting suicide. Stroke index 12 (no shot) — par is minimum. Consistent 3-putt tendency on par 3s makes proximity less critical than avoiding catastrophe.",
+  "confidence": "82%"
+}]
+2026/07/03 15:49:22 Time taken [4912]ms
+2026/07/03 15:49:22 Completing Hole
+2026/07/03 15:49:22 PlayedHole - round_id [39] hole_number [1] course_hole_id [1]
+2026/07/03 15:49:22 PlayedHole - round_id [39] hole_number [2] course_hole_id [2]
+2026/07/03 15:49:22 PlayedHole - round_id [39] hole_number [3] course_hole_id [3]
+2026/07/03 15:49:22 Persisted Round ID [39]
